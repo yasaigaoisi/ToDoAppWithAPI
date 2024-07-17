@@ -1,0 +1,21 @@
+<p>
+  <strong>Title:</strong>
+    <%= @todo["title"] %>
+</p>
+<p>
+  <strong>Content:</strong>
+    <%= @todo["content"] %>
+</p>
+<p>
+  <strong>Datetime:</strong>
+    <%= @todo["datetime"] %>
+</p>
+<p>
+  <strong>CompleteFlag:</strong>
+    <%= @todo["complete_flag"] %>
+</p>
+
+<div>
+  <%= link_to "Edit", edit_todo_path(id: @todo["id"]) %>
+  <%= link_to "Back", todos_path %>
+</div>

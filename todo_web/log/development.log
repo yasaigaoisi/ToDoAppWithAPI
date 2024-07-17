@@ -99,3 +99,2055 @@ Processing by TodosController#new as HTML
 Completed 200 OK in 47ms (Views: 23.1ms | ActiveRecord: 0.7ms | Allocations: 19673)
 
 
+Started GET "/todos" for ::1 at 2024-07-17 10:10:11 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/todos"):
+  
+Started GET "/todos" for ::1 at 2024-07-17 10:11:11 +0900
+  
+ActionController::RoutingError (uninitialized constant TodosController):
+  
+Started GET "/todos" for ::1 at 2024-07-17 10:12:34 +0900
+  
+ActionController::RoutingError (uninitialized constant TodosController):
+  
+Started GET "/todos" for ::1 at 2024-07-17 10:12:36 +0900
+  
+ActionController::RoutingError (uninitialized constant TodosController):
+  
+Started GET "/todos" for ::1 at 2024-07-17 10:13:00 +0900
+  
+ActionController::RoutingError (uninitialized constant TodosController):
+  
+Started GET "/todos" for ::1 at 2024-07-17 10:13:01 +0900
+  
+ActionController::RoutingError (uninitialized constant TodosController):
+  
+Started GET "/todos" for ::1 at 2024-07-17 10:13:18 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+Completed 406 Not Acceptable in 197ms (ActiveRecord: 0.0ms | Allocations: 3132)
+
+
+  
+ActionController::MissingExactTemplate (TodosController#index is missing a template for request formats: text/html):
+  
+actionpack (7.1.3.4) lib/action_controller/metal/implicit_render.rb:47:in `default_render'
+actionpack (7.1.3.4) lib/action_controller/metal/basic_implicit_render.rb:7:in `send_action'
+actionpack (7.1.3.4) lib/abstract_controller/base.rb:224:in `process_action'
+actionpack (7.1.3.4) lib/action_controller/metal/rendering.rb:165:in `process_action'
+actionpack (7.1.3.4) lib/abstract_controller/callbacks.rb:259:in `block in process_action'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+turbo-rails (2.0.5) lib/turbo-rails.rb:24:in `with_request_id'
+turbo-rails (2.0.5) app/controllers/concerns/turbo/request_id_tracking.rb:10:in `turbo_tracking_request_id'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+actiontext (7.1.3.4) lib/action_text/rendering.rb:23:in `with_renderer'
+actiontext (7.1.3.4) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:130:in `instance_exec'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:141:in `run_callbacks'
+actionpack (7.1.3.4) lib/abstract_controller/callbacks.rb:258:in `process_action'
+actionpack (7.1.3.4) lib/action_controller/metal/rescue.rb:25:in `process_action'
+actionpack (7.1.3.4) lib/action_controller/metal/instrumentation.rb:74:in `block in process_action'
+activesupport (7.1.3.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.1.3.4) lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+activesupport (7.1.3.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.1.3.4) lib/action_controller/metal/instrumentation.rb:73:in `process_action'
+actionpack (7.1.3.4) lib/action_controller/metal/params_wrapper.rb:261:in `process_action'
+activerecord (7.1.3.4) lib/active_record/railties/controller_runtime.rb:32:in `process_action'
+actionpack (7.1.3.4) lib/abstract_controller/base.rb:160:in `process'
+actionview (7.1.3.4) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.1.3.4) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.3.4) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.3.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.3.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.3.4) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.3.4) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.3.4) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.3.4) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.3.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.3.4) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.1.7) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.1.7) lib/rack/etag.rb:29:in `call'
+rack (3.1.7) lib/rack/conditional_get.rb:31:in `call'
+rack (3.1.7) lib/rack/head.rb:15:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/http/permissions_policy.rb:36:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/http/content_security_policy.rb:33:in `call'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:272:in `context'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:266:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (7.1.3.4) lib/active_record/migration.rb:655:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.3.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.3.4) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.3.4) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.3.4) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.3.4) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.3.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.5.1) lib/sprockets/rails/quiet_assets.rb:17:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.1.7) lib/rack/method_override.rb:28:in `call'
+rack (3.1.7) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.1.7) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.3.4) lib/rails/engine.rb:536:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/todos" for ::1 at 2024-07-17 10:14:06 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 1139)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 1243)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 3020)
+
+
+  
+ActionView::Template::Error (undefined method `title' for {"id"=>1, "title"=>"test1", "content"=>"111111111111111111111", "datetime"=>nil, "complete_flag"=>nil, "created_at"=>"2024-07-17T01:09:32.649Z", "updated_at"=>"2024-07-17T01:09:32.649Z"}:Hash):
+    2: <p>Find me in app/views/todo/index.html.erb</p>
+    3: <ul>
+    4:   <% @todos.each do |todo| %>
+    5:     <li><%= todo.title %></li>
+    6:   <% end %>
+    7: </ul>
+  
+app/views/todos/index.html.erb:5
+app/views/todos/index.html.erb:4:in `each'
+app/views/todos/index.html.erb:4
+Started GET "/todos" for ::1 at 2024-07-17 10:14:07 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 1016)
+  Rendered layout layouts/application.html.erb (Duration: 0.4ms | Allocations: 1107)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 2100)
+
+
+  
+ActionView::Template::Error (undefined method `title' for {"id"=>1, "title"=>"test1", "content"=>"111111111111111111111", "datetime"=>nil, "complete_flag"=>nil, "created_at"=>"2024-07-17T01:09:32.649Z", "updated_at"=>"2024-07-17T01:09:32.649Z"}:Hash):
+    2: <p>Find me in app/views/todo/index.html.erb</p>
+    3: <ul>
+    4:   <% @todos.each do |todo| %>
+    5:     <li><%= todo.title %></li>
+    6:   <% end %>
+    7: </ul>
+  
+app/views/todos/index.html.erb:5
+app/views/todos/index.html.erb:4:in `each'
+app/views/todos/index.html.erb:4
+Started GET "/todos" for ::1 at 2024-07-17 10:14:35 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 165)
+  Rendered layout layouts/application.html.erb (Duration: 22.3ms | Allocations: 33244)
+Completed 200 OK in 28ms (Views: 23.0ms | ActiveRecord: 0.0ms | Allocations: 34965)
+
+
+Started GET "/todos" for ::1 at 2024-07-17 10:22:38 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate
+
+You have 1 pending migration:
+
+db/migrate/20240717011649_create_tests.rb
+
+
+):
+  
+activerecord (7.1.3.4) lib/active_record/migration.rb:755:in `check_pending_migrations'
+activerecord (7.1.3.4) lib/active_record/migration.rb:644:in `block (2 levels) in call'
+activesupport (7.1.3.4) lib/active_support/file_update_checker.rb:85:in `execute'
+activerecord (7.1.3.4) lib/active_record/migration.rb:649:in `block in call'
+activerecord (7.1.3.4) lib/active_record/migration.rb:641:in `synchronize'
+activerecord (7.1.3.4) lib/active_record/migration.rb:641:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.3.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.3.4) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.3.4) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.3.4) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.3.4) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.3.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.5.1) lib/sprockets/rails/quiet_assets.rb:17:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.1.7) lib/rack/method_override.rb:28:in `call'
+rack (3.1.7) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.1.7) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.3.4) lib/rails/engine.rb:536:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateTests (20240717011649)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "tests" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20240717011649') RETURNING "version"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/todos" for ::1 at 2024-07-17 10:23:06 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1804)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to 127.0.0.1:3000 (Connection refused - connect(2) for "127.0.0.1" port 3000)):
+  
+app/controllers/todos_controller.rb:6:in `index'
+Started GET "/todos" for ::1 at 2024-07-17 10:23:19 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1226)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 1329)
+Completed 500 Internal Server Error in 154ms (ActiveRecord: 0.0ms | Allocations: 3185)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `toto' for #<ActionView::Base:0x0000000000bba8>):
+    2: 
+    3: <div id="todos">
+    4:   <% @todos.each do |todo| %>
+    5:     <%= render toto %>
+    6:     <p>
+    7:       <%= link_to "view", todo %>
+    8:     </p>
+  
+app/views/todos/index.html.erb:5
+app/views/todos/index.html.erb:4:in `each'
+app/views/todos/index.html.erb:4
+Started GET "/tests" for ::1 at 2024-07-17 10:25:38 +0900
+Processing by TestsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tests/index.html.erb within layouts/application
+  [1m[36mTest Load (0.4ms)[0m  [1m[34mSELECT "tests".* FROM "tests"[0m
+  ↳ app/views/tests/index.html.erb:6
+  Rendered tests/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1458)
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 34382)
+Completed 200 OK in 27ms (Views: 19.4ms | ActiveRecord: 1.4ms | Allocations: 41230)
+
+
+Started GET "/todos" for ::1 at 2024-07-17 10:26:39 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 1195)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 1288)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 3023)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :body, :file, :html, :inline, :partial, :plain, :renderable, or :template option.):
+    2: 
+    3: <div id="todos">
+    4:   <% @todos.each do |todo| %>
+    5:     <%= render todo %>
+    6:     <p>
+    7:       <%= link_to "view", todo %>
+    8:     </p>
+  
+app/views/todos/index.html.erb:5
+app/views/todos/index.html.erb:4:in `each'
+app/views/todos/index.html.erb:4
+Started GET "/todos" for ::1 at 2024-07-17 10:27:11 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1659)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 1786)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms | Allocations: 7033)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :body, :file, :html, :inline, :partial, :plain, :renderable, or :template option.):
+    2: 
+    3: <div id="todos">
+    4:   <% @todos.each do |todo| %>
+    5:     <%= render todo %>
+    6:     <p>
+    7:       <%= link_to "view", todo %>
+    8:     </p>
+  
+app/views/todos/index.html.erb:5
+app/views/todos/index.html.erb:4:in `each'
+app/views/todos/index.html.erb:4
+Started GET "/todos" for ::1 at 2024-07-17 10:29:31 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1659)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 1786)
+Completed 500 Internal Server Error in 147ms (ActiveRecord: 0.0ms | Allocations: 7033)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :body, :file, :html, :inline, :partial, :plain, :renderable, or :template option.):
+    2: 
+    3: <div id="todos">
+    4:   <% @todos.each do |todo| %>
+    5:     <%= render todo %>
+    6:     <p>
+    7:       <%= link_to "view", todo %>
+    8:     </p>
+  
+app/views/todos/index.html.erb:5
+app/views/todos/index.html.erb:4:in `each'
+app/views/todos/index.html.erb:4
+Started PUT "/__web_console/repl_sessions/8ce71c8b5cc54bef41adadc759e7acde" for ::1 at 2024-07-17 10:29:39 +0900
+Started PUT "/__web_console/repl_sessions/8ce71c8b5cc54bef41adadc759e7acde" for ::1 at 2024-07-17 10:29:41 +0900
+Started PUT "/__web_console/repl_sessions/8ce71c8b5cc54bef41adadc759e7acde" for ::1 at 2024-07-17 10:29:49 +0900
+Started PUT "/__web_console/repl_sessions/8ce71c8b5cc54bef41adadc759e7acde" for ::1 at 2024-07-17 10:29:50 +0900
+Started PUT "/__web_console/repl_sessions/8ce71c8b5cc54bef41adadc759e7acde" for ::1 at 2024-07-17 10:29:55 +0900
+Started PUT "/__web_console/repl_sessions/8ce71c8b5cc54bef41adadc759e7acde" for ::1 at 2024-07-17 10:29:57 +0900
+Started PUT "/__web_console/repl_sessions/8ce71c8b5cc54bef41adadc759e7acde" for ::1 at 2024-07-17 10:30:03 +0900
+Started GET "/todos" for ::1 at 2024-07-17 10:32:09 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1040)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 1131)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 2129)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :body, :file, :html, :inline, :partial, :plain, :renderable, or :template option.):
+    2: 
+    3: <div id="todos">
+    4:   <% @todos.each do |todo| %>
+    5:     <%= render todo %>
+    6:     <p>
+    7:       <%= link_to "view", todo %>
+    8:     </p>
+  
+app/views/todos/index.html.erb:5
+app/views/todos/index.html.erb:4:in `each'
+app/views/todos/index.html.erb:4
+Started GET "/todos" for ::1 at 2024-07-17 10:32:53 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1022)
+  Rendered layout layouts/application.html.erb (Duration: 26.0ms | Allocations: 33415)
+Completed 200 OK in 36ms (Views: 26.8ms | ActiveRecord: 0.0ms | Allocations: 35196)
+
+
+Started GET "/todos" for ::1 at 2024-07-17 10:33:28 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 877)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 15945)
+Completed 200 OK in 14ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 17690)
+
+
+Started GET "/todos" for ::1 at 2024-07-17 10:34:42 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 863)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 15773)
+Completed 200 OK in 11ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 17513)
+
+
+Started GET "/todos" for ::1 at 2024-07-17 10:34:54 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 878)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 15952)
+Completed 200 OK in 12ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 17697)
+
+
+Started GET "/todos?content=111111111111111111111&created_at=2024-07-17T01%3A09%3A32.649Z&id=1&title=test1&updated_at=2024-07-17T01%3A09%3A32.649Z" for ::1 at 2024-07-17 10:34:56 +0900
+Processing by TodosController#index as HTML
+  Parameters: {"content"=>"111111111111111111111", "created_at"=>"2024-07-17T01:09:32.649Z", "id"=>"1", "title"=>"test1", "updated_at"=>"2024-07-17T01:09:32.649Z"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 876)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 15789)
+Completed 200 OK in 10ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 17527)
+
+
+Started GET "/todos" for ::1 at 2024-07-17 10:35:47 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 889)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 15974)
+Completed 200 OK in 13ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 17718)
+
+
+Started GET "/todos?content=111111111111111111111&created_at=2024-07-17T01%3A09%3A32.649Z&id=1&title=test1&updated_at=2024-07-17T01%3A09%3A32.649Z" for ::1 at 2024-07-17 10:35:52 +0900
+Processing by TodosController#index as HTML
+  Parameters: {"content"=>"111111111111111111111", "created_at"=>"2024-07-17T01:09:32.649Z", "id"=>"1", "title"=>"test1", "updated_at"=>"2024-07-17T01:09:32.649Z"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 888)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 15804)
+Completed 200 OK in 10ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 17545)
+
+
+Started GET "/info/routes" for ::1 at 2024-07-17 10:39:00 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/info/routes"):
+  
+Started GET "/todos" for ::1 at 2024-07-17 10:43:05 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 330)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 15409)
+Completed 200 OK in 35ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 17153)
+
+
+Started GET "/todos/1" for ::1 at 2024-07-17 10:43:07 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 510)
+
+
+  
+NoMethodError (undefined method `set_todo' for #<TodosController:0x0000000002c920>):
+  
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:403:in `block in make_lambda'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:183:in `block (2 levels) in halting_and_conditional'
+actionpack (7.1.3.4) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:184:in `block in halting_and_conditional'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:598:in `block in invoke_before'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:598:in `each'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:598:in `invoke_before'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:119:in `block in run_callbacks'
+turbo-rails (2.0.5) lib/turbo-rails.rb:24:in `with_request_id'
+turbo-rails (2.0.5) app/controllers/concerns/turbo/request_id_tracking.rb:10:in `turbo_tracking_request_id'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+actiontext (7.1.3.4) lib/action_text/rendering.rb:23:in `with_renderer'
+actiontext (7.1.3.4) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:130:in `instance_exec'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:141:in `run_callbacks'
+actionpack (7.1.3.4) lib/abstract_controller/callbacks.rb:258:in `process_action'
+actionpack (7.1.3.4) lib/action_controller/metal/rescue.rb:25:in `process_action'
+actionpack (7.1.3.4) lib/action_controller/metal/instrumentation.rb:74:in `block in process_action'
+activesupport (7.1.3.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.1.3.4) lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+activesupport (7.1.3.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.1.3.4) lib/action_controller/metal/instrumentation.rb:73:in `process_action'
+actionpack (7.1.3.4) lib/action_controller/metal/params_wrapper.rb:261:in `process_action'
+activerecord (7.1.3.4) lib/active_record/railties/controller_runtime.rb:32:in `process_action'
+actionpack (7.1.3.4) lib/abstract_controller/base.rb:160:in `process'
+actionview (7.1.3.4) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.1.3.4) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.3.4) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.3.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.3.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.3.4) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.3.4) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.3.4) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.3.4) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.3.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.3.4) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.1.7) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.1.7) lib/rack/etag.rb:29:in `call'
+rack (3.1.7) lib/rack/conditional_get.rb:31:in `call'
+rack (3.1.7) lib/rack/head.rb:15:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/http/permissions_policy.rb:36:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/http/content_security_policy.rb:33:in `call'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:272:in `context'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:266:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (7.1.3.4) lib/active_record/migration.rb:655:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.3.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.3.4) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.3.4) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.3.4) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.3.4) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.3.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.5.1) lib/sprockets/rails/quiet_assets.rb:17:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.1.7) lib/rack/method_override.rb:28:in `call'
+rack (3.1.7) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.1.7) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.3.4) lib/rails/engine.rb:536:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/todos" for ::1 at 2024-07-17 10:43:12 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 76)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1396)
+Completed 200 OK in 11ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 2400)
+
+
+Started GET "/todos/1" for ::1 at 2024-07-17 10:44:55 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 15164)
+Completed 200 OK in 32ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 16901)
+
+
+Started GET "/todos" for ::1 at 2024-07-17 10:45:01 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 302)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 1605)
+Completed 200 OK in 18ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 2648)
+
+
+Started GET "/todos" for ::1 at 2024-07-17 10:45:55 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 314)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 15234)
+Completed 200 OK in 19ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 16970)
+
+
+Started GET "/todos/1" for ::1 at 2024-07-17 10:45:56 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 1406)
+Completed 200 OK in 10ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 2455)
+
+
+Started GET "/todos" for ::1 at 2024-07-17 10:46:02 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 318)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 15401)
+Completed 200 OK in 13ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 17143)
+
+
+Started GET "/todos" for ::1 at 2024-07-17 10:46:14 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 314)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 15300)
+Completed 200 OK in 13ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 17037)
+
+
+Started GET "/todos/1" for ::1 at 2024-07-17 10:46:14 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 123)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 15110)
+Completed 200 OK in 10ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 16859)
+
+
+Started GET "/todos/1" for ::1 at 2024-07-17 10:46:16 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 1300)
+Completed 200 OK in 18ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 2299)
+
+
+Started GET "/todos" for ::1 at 2024-07-17 10:46:17 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 302)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 1602)
+Completed 200 OK in 18ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 2645)
+
+
+Started GET "/todos/1" for ::1 at 2024-07-17 10:46:48 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 1303)
+Completed 200 OK in 23ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 2290)
+
+
+Started GET "/todos/1" for ::1 at 2024-07-17 10:46:50 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1294)
+Completed 200 OK in 17ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 2281)
+
+
+Started GET "/todos/1" for ::1 at 2024-07-17 10:54:54 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 196)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 15288)
+Completed 200 OK in 29ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 17037)
+
+
+Started GET "/todos" for ::1 at 2024-07-17 10:55:16 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 314)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 15384)
+Completed 200 OK in 26ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 17121)
+
+
+Started GET "/todos/1" for ::1 at 2024-07-17 10:55:17 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 191)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 15210)
+Completed 200 OK in 11ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 16956)
+
+
+Started GET "/todos/1" for ::1 at 2024-07-17 10:56:01 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 273)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 15190)
+Completed 200 OK in 13ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 16919)
+
+
+Started GET "/todos" for ::1 at 2024-07-17 10:56:02 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 316)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 15396)
+Completed 200 OK in 11ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 17139)
+
+
+Started GET "/todos" for ::1 at 2024-07-17 10:58:45 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate
+
+You have 1 pending migration:
+
+db/migrate/20240717015733_create_tests.rb
+
+
+):
+  
+activerecord (7.1.3.4) lib/active_record/migration.rb:755:in `check_pending_migrations'
+activerecord (7.1.3.4) lib/active_record/migration.rb:644:in `block (2 levels) in call'
+activesupport (7.1.3.4) lib/active_support/file_update_checker.rb:85:in `execute'
+activerecord (7.1.3.4) lib/active_record/migration.rb:649:in `block in call'
+activerecord (7.1.3.4) lib/active_record/migration.rb:641:in `synchronize'
+activerecord (7.1.3.4) lib/active_record/migration.rb:641:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.3.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.3.4) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.3.4) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.3.4) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.3.4) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.3.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.5.1) lib/sprockets/rails/quiet_assets.rb:17:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.1.7) lib/rack/method_override.rb:28:in `call'
+rack (3.1.7) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.1.7) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.3.4) lib/rails/engine.rb:536:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/todos" for ::1 at 2024-07-17 10:58:48 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate
+
+You have 1 pending migration:
+
+db/migrate/20240717015733_create_tests.rb
+
+
+):
+  
+activerecord (7.1.3.4) lib/active_record/migration.rb:755:in `check_pending_migrations'
+activerecord (7.1.3.4) lib/active_record/migration.rb:644:in `block (2 levels) in call'
+activesupport (7.1.3.4) lib/active_support/file_update_checker.rb:85:in `execute'
+activerecord (7.1.3.4) lib/active_record/migration.rb:649:in `block in call'
+activerecord (7.1.3.4) lib/active_record/migration.rb:641:in `synchronize'
+activerecord (7.1.3.4) lib/active_record/migration.rb:641:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.3.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.3.4) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.3.4) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.3.4) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.3.4) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.3.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.5.1) lib/sprockets/rails/quiet_assets.rb:17:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.1.7) lib/rack/method_override.rb:28:in `call'
+rack (3.1.7) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.1.7) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.3.4) lib/rails/engine.rb:536:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateTests (20240717015733)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "tests" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "content" text, "datetime" datetime(6), "completed_flag" boolean, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[36mActiveRecord::InternalMetadata Create (0.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ('environment', 'development', '2024-07-17 01:59:13.859241', '2024-07-17 01:59:13.859243') RETURNING "key"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateTests (20240717015733)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "tests" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "content" text, "datetime" datetime(6), "completed_flag" boolean, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20240717015733') RETURNING "version"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/todos" for ::1 at 2024-07-17 10:59:18 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 584)
+  Rendered layout layouts/application.html.erb (Duration: 36.6ms | Allocations: 34859)
+Completed 200 OK in 52ms (Views: 38.2ms | ActiveRecord: 0.0ms | Allocations: 40147)
+
+
+Started GET "/todos/1" for ::1 at 2024-07-17 10:59:19 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 311)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1597)
+Completed 200 OK in 13ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 2669)
+
+
+Started GET "/todos" for ::1 at 2024-07-17 10:59:21 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 76)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1376)
+Completed 200 OK in 18ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 2360)
+
+
+Started GET "/todos/1/edit" for ::1 at 2024-07-17 10:59:22 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 0.5ms | Allocations: 93)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1375)
+Completed 200 OK in 20ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 2425)
+
+
+Started GET "/todos/1/edit" for ::1 at 2024-07-17 12:34:40 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 0.2ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 1297)
+Completed 200 OK in 49ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 2299)
+
+
+Started GET "/todos/1/edit" for ::1 at 2024-07-17 12:36:00 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1547)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 1640)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 3379)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"todos", :id=>nil}, possible unmatched constraints: [:id]):
+    2: <p>Find me in app/views/todo/edit.html.erb</p>
+    3: 
+    4: <div>
+    5:   <%= link_to "Back", todo_path(id: @todo[:id]) %>
+    6:   <%= link_to "Back to todos", todos_path %>
+    7: </div>
+  
+app/views/todos/edit.html.erb:5
+Started GET "/todos/1/edit" for ::1 at 2024-07-17 12:37:33 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 0.3ms | Allocations: 248)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 15318)
+Completed 200 OK in 22ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 17067)
+
+
+Started GET "/todos" for ::1 at 2024-07-17 12:37:35 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 314)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 15223)
+Completed 200 OK in 28ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 16948)
+
+
+Started GET "/todos/1" for ::1 at 2024-07-17 12:37:35 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 300)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1596)
+Completed 200 OK in 16ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 2646)
+
+
+Started GET "/todos" for ::1 at 2024-07-17 12:37:37 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 76)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 1373)
+Completed 200 OK in 23ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 2355)
+
+
+Started GET "/todos/1/edit" for ::1 at 2024-07-17 12:37:37 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 0.8ms | Allocations: 208)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 1483)
+Completed 200 OK in 16ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 2530)
+
+
+Started GET "/todos" for ::1 at 2024-07-17 12:37:39 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 76)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 1382)
+Completed 200 OK in 20ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 2364)
+
+
+Started GET "/todos/new" for ::1 at 2024-07-17 12:37:41 +0900
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 93)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 1379)
+Completed 200 OK in 9ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 1680)
+
+
+Started GET "/info/routes" for ::1 at 2024-07-17 12:42:51 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/info/routes"):
+  
+Started GET "/todos" for ::1 at 2024-07-17 12:47:12 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 314)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 15417)
+Completed 200 OK in 24ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 17154)
+
+
+Started GET "/todos/1" for ::1 at 2024-07-17 12:47:13 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 300)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1575)
+Completed 200 OK in 19ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 2623)
+
+
+Started GET "/todos/1/edit" for ::1 at 2024-07-17 12:47:14 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1290)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 1381)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms | Allocations: 2431)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `post' for #<ActionView::Base:0x000000000204b8>):
+    1: <h1>Todo#edit</h1>
+    2: 
+    3: <%= form_with url: todo_path(id: @todo["id"]), method: post do |form| %>
+    4:   <div>
+    5:     <%= form.label title, style: "display: block" %>
+    6:     <%= form.text_field :title %>
+  
+app/views/todos/edit.html.erb:3
+Started GET "/todos/1/edit" for ::1 at 2024-07-17 12:47:33 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1302)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 1395)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 3128)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `title' for #<ActionView::Base:0x000000000247e8>):
+    2: 
+    3: <%= form_with url: todo_path(id: @todo["id"]), method: :post do |form| %>
+    4:   <div>
+    5:     <%= form.label title, style: "display: block" %>
+    6:     <%= form.text_field :title %>
+    7:   </div>
+    8:   <div>
+  
+app/views/todos/edit.html.erb:5
+app/views/todos/edit.html.erb:3
+Started GET "/todos/1/edit" for ::1 at 2024-07-17 12:47:43 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2238)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 17102)
+Completed 200 OK in 37ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 18845)
+
+
+Started POST "/todos/1" for ::1 at 2024-07-17 12:49:53 +0900
+  
+ActionController::RoutingError (No route matches [POST] "/todos/1"):
+  
+Started GET "/todos/1/edit" for ::1 at 2024-07-17 12:49:53 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1751)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 16616)
+Completed 200 OK in 34ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 18318)
+
+
+Started POST "/todos/1" for ::1 at 2024-07-17 12:50:46 +0900
+  
+ActionController::RoutingError (No route matches [POST] "/todos/1"):
+  
+Started GET "/todos/1/edit" for ::1 at 2024-07-17 12:50:46 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1505)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 2617)
+Completed 200 OK in 15ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 3638)
+
+
+Started POST "/todos/1" for ::1 at 2024-07-17 14:01:16 +0900
+  
+ActionController::RoutingError (No route matches [POST] "/todos/1"):
+  
+Started GET "/todos/1/edit" for ::1 at 2024-07-17 14:01:16 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1523)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 2635)
+Completed 200 OK in 18ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 3651)
+
+
+Started POST "/todos/1" for ::1 at 2024-07-17 14:03:17 +0900
+  
+ActionController::RoutingError (No route matches [POST] "/todos/1"):
+  
+Started GET "/todos/1/edit" for ::1 at 2024-07-17 14:03:17 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1794)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 16658)
+Completed 200 OK in 33ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 18404)
+
+
+Started GET "/tests" for ::1 at 2024-07-17 14:09:09 +0900
+Processing by TestsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tests/index.html.erb within layouts/application
+  [1m[36mTest Load (0.2ms)[0m  [1m[34mSELECT "tests".* FROM "tests"[0m
+  ↳ app/views/tests/index.html.erb:6
+  Rendered tests/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1368)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2488)
+Completed 200 OK in 28ms (Views: 4.0ms | ActiveRecord: 1.9ms | Allocations: 8841)
+
+
+Started GET "/tests/new" for ::1 at 2024-07-17 14:09:11 +0900
+Processing by TestsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tests/new.html.erb within layouts/application
+  Rendered tests/_form.html.erb (Duration: 4.5ms | Allocations: 2266)
+  Rendered tests/new.html.erb within layouts/application (Duration: 5.4ms | Allocations: 2548)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 3653)
+Completed 200 OK in 22ms (Views: 7.0ms | ActiveRecord: 0.4ms | Allocations: 15241)
+
+
+Started POST "/tests" for ::1 at 2024-07-17 14:09:13 +0900
+Processing by TestsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "test"=>{"name"=>"", "content"=>"", "datetime"=>"", "completed_flag"=>"0"}, "commit"=>"Create Test"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tests_controller.rb:27:in `block in create'
+  [1m[36mTest Create (2.4ms)[0m  [1m[32mINSERT INTO "tests" ("name", "content", "datetime", "completed_flag", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["name", ""], ["content", ""], ["datetime", nil], ["completed_flag", 0], ["created_at", "2024-07-17 05:09:13.905436"], ["updated_at", "2024-07-17 05:09:13.905436"]]
+  ↳ app/controllers/tests_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tests_controller.rb:27:in `block in create'
+Redirected to http://localhost:3001/tests/1
+Completed 302 Found in 13ms (ActiveRecord: 3.0ms | Allocations: 3454)
+
+
+Started GET "/tests/1" for ::1 at 2024-07-17 14:09:13 +0900
+Processing by TestsController#show as TURBO_STREAM
+  Parameters: {"id"=>"1"}
+  [1m[36mTest Load (0.2ms)[0m  [1m[34mSELECT "tests".* FROM "tests" WHERE "tests"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tests_controller.rb:63:in `set_test'
+  Rendering layout layouts/application.html.erb
+  Rendering tests/show.html.erb within layouts/application
+  Rendered tests/_test.html.erb (Duration: 0.4ms | Allocations: 234)
+  Rendered tests/show.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1279)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2380)
+Completed 200 OK in 11ms (Views: 5.6ms | ActiveRecord: 0.2ms | Allocations: 5398)
+
+
+Started GET "/tests/1/edit" for ::1 at 2024-07-17 14:09:15 +0900
+Processing by TestsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTest Load (0.3ms)[0m  [1m[34mSELECT "tests".* FROM "tests" WHERE "tests"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tests_controller.rb:63:in `set_test'
+  Rendering layout layouts/application.html.erb
+  Rendering tests/edit.html.erb within layouts/application
+  Rendered tests/_form.html.erb (Duration: 3.5ms | Allocations: 1130)
+  Rendered tests/edit.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1386)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 2487)
+Completed 200 OK in 12ms (Views: 8.4ms | ActiveRecord: 0.2ms | Allocations: 3174)
+
+
+Started GET "/tests" for ::1 at 2024-07-17 14:09:16 +0900
+Processing by TestsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tests/index.html.erb within layouts/application
+  [1m[36mTest Load (0.2ms)[0m  [1m[34mSELECT "tests".* FROM "tests"[0m
+  ↳ app/views/tests/index.html.erb:6
+  Rendered tests/_test.html.erb (Duration: 0.2ms | Allocations: 21)
+  Rendered tests/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 762)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 1868)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.2ms | Allocations: 2124)
+
+
+Started GET "/tests/1" for ::1 at 2024-07-17 14:09:19 +0900
+Processing by TestsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTest Load (0.1ms)[0m  [1m[34mSELECT "tests".* FROM "tests" WHERE "tests"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tests_controller.rb:63:in `set_test'
+  Rendering layout layouts/application.html.erb
+  Rendering tests/show.html.erb within layouts/application
+  Rendered tests/_test.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered tests/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 456)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 1557)
+Completed 200 OK in 7ms (Views: 4.3ms | ActiveRecord: 0.1ms | Allocations: 2173)
+
+
+Started GET "/tests/1/edit" for ::1 at 2024-07-17 14:09:22 +0900
+Processing by TestsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTest Load (0.2ms)[0m  [1m[34mSELECT "tests".* FROM "tests" WHERE "tests"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tests_controller.rb:63:in `set_test'
+  Rendering layout layouts/application.html.erb
+  Rendering tests/edit.html.erb within layouts/application
+  Rendered tests/_form.html.erb (Duration: 3.2ms | Allocations: 1103)
+  Rendered tests/edit.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1207)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 2308)
+Completed 200 OK in 10ms (Views: 7.7ms | ActiveRecord: 0.2ms | Allocations: 2924)
+
+
+Started GET "/tests/1/edit" for ::1 at 2024-07-17 14:09:27 +0900
+Processing by TestsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTest Load (0.2ms)[0m  [1m[34mSELECT "tests".* FROM "tests" WHERE "tests"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tests_controller.rb:63:in `set_test'
+  Rendering layout layouts/application.html.erb
+  Rendering tests/edit.html.erb within layouts/application
+  Rendered tests/_form.html.erb (Duration: 3.1ms | Allocations: 1112)
+  Rendered tests/edit.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1216)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 2317)
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.2ms | Allocations: 2933)
+
+
+Started PATCH "/tests/1" for ::1 at 2024-07-17 14:09:45 +0900
+Processing by TestsController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "test"=>{"name"=>"", "content"=>"", "datetime"=>"", "completed_flag"=>"0"}, "commit"=>"Update Test", "id"=>"1"}
+  [1m[36mTest Load (0.2ms)[0m  [1m[34mSELECT "tests".* FROM "tests" WHERE "tests"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tests_controller.rb:63:in `set_test'
+Redirected to http://localhost:3001/tests/1
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms | Allocations: 1062)
+
+
+Started GET "/tests/1" for ::1 at 2024-07-17 14:09:45 +0900
+Processing by TestsController#show as TURBO_STREAM
+  Parameters: {"id"=>"1"}
+  [1m[36mTest Load (0.1ms)[0m  [1m[34mSELECT "tests".* FROM "tests" WHERE "tests"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tests_controller.rb:63:in `set_test'
+  Rendering layout layouts/application.html.erb
+  Rendering tests/show.html.erb within layouts/application
+  Rendered tests/_test.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered tests/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 462)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 1574)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.1ms | Allocations: 2193)
+
+
+Started GET "/tests/1/edit" for ::1 at 2024-07-17 14:10:15 +0900
+Processing by TestsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTest Load (0.3ms)[0m  [1m[34mSELECT "tests".* FROM "tests" WHERE "tests"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tests_controller.rb:63:in `set_test'
+  Rendering layout layouts/application.html.erb
+  Rendering tests/edit.html.erb within layouts/application
+  Rendered tests/_form.html.erb (Duration: 5.9ms | Allocations: 1115)
+  Rendered tests/edit.html.erb within layouts/application (Duration: 6.4ms | Allocations: 1219)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 2328)
+Completed 200 OK in 12ms (Views: 9.2ms | ActiveRecord: 0.3ms | Allocations: 2944)
+
+
+Started GET "/tests" for ::1 at 2024-07-17 14:10:17 +0900
+Processing by TestsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tests/index.html.erb within layouts/application
+  [1m[36mTest Load (0.1ms)[0m  [1m[34mSELECT "tests".* FROM "tests"[0m
+  ↳ app/views/tests/index.html.erb:6
+  Rendered tests/_test.html.erb (Duration: 0.1ms | Allocations: 21)
+  Rendered tests/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 759)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 1867)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.1ms | Allocations: 2119)
+
+
+Started GET "/tests/new" for ::1 at 2024-07-17 14:10:17 +0900
+Processing by TestsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tests/new.html.erb within layouts/application
+  Rendered tests/_form.html.erb (Duration: 2.2ms | Allocations: 1087)
+  Rendered tests/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1166)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2271)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 2527)
+
+
+Started GET "/tests" for ::1 at 2024-07-17 14:10:44 +0900
+Processing by TestsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tests/index.html.erb within layouts/application
+  [1m[36mTest Load (0.3ms)[0m  [1m[34mSELECT "tests".* FROM "tests"[0m
+  ↳ app/views/tests/index.html.erb:6
+  Rendered tests/_test.html.erb (Duration: 0.4ms | Allocations: 21)
+  Rendered tests/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 750)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 1856)
+Completed 200 OK in 13ms (Views: 10.4ms | ActiveRecord: 0.3ms | Allocations: 2108)
+
+
+Started GET "/tests/1" for ::1 at 2024-07-17 14:10:45 +0900
+Processing by TestsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTest Load (0.3ms)[0m  [1m[34mSELECT "tests".* FROM "tests" WHERE "tests"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tests_controller.rb:63:in `set_test'
+  Rendering layout layouts/application.html.erb
+  Rendering tests/show.html.erb within layouts/application
+  Rendered tests/_test.html.erb (Duration: 0.2ms | Allocations: 21)
+  Rendered tests/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 450)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 1551)
+Completed 200 OK in 10ms (Views: 7.2ms | ActiveRecord: 0.3ms | Allocations: 2167)
+
+
+Started GET "/tests/1/edit" for ::1 at 2024-07-17 14:10:47 +0900
+Processing by TestsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTest Load (0.2ms)[0m  [1m[34mSELECT "tests".* FROM "tests" WHERE "tests"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tests_controller.rb:63:in `set_test'
+  Rendering layout layouts/application.html.erb
+  Rendering tests/edit.html.erb within layouts/application
+  Rendered tests/_form.html.erb (Duration: 5.0ms | Allocations: 1127)
+  Rendered tests/edit.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1231)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 2332)
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.2ms | Allocations: 2948)
+
+
+Started PATCH "/todos/1" for ::1 at 2024-07-17 14:11:58 +0900
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"", "commit"=>"Save ", "id"=>"1"}
+Redirected to http://localhost:3001/todos/1?content=111111111111111111111&created_at=2024-07-17T01%3A09%3A32.649Z&id=1&title=test1&updated_at=2024-07-17T01%3A09%3A32.649Z
+Completed 302 Found in 13ms (ActiveRecord: 0.0ms | Allocations: 1390)
+
+
+Started GET "/todos/1?content=111111111111111111111&created_at=2024-07-17T01%3A09%3A32.649Z&id=1&title=test1&updated_at=2024-07-17T01%3A09%3A32.649Z" for ::1 at 2024-07-17 14:11:58 +0900
+Processing by TodosController#show as TURBO_STREAM
+  Parameters: {"content"=>"111111111111111111111", "created_at"=>"2024-07-17T01:09:32.649Z", "id"=>"1", "title"=>"test1", "updated_at"=>"2024-07-17T01:09:32.649Z"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 327)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 15390)
+Completed 200 OK in 12ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 17047)
+
+
+Started GET "/todos/1/edit" for ::1 at 2024-07-17 14:12:14 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1810)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 16675)
+Completed 200 OK in 16ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 18423)
+
+
+Started PATCH "/todos/1" for ::1 at 2024-07-17 14:12:16 +0900
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"", "commit"=>"Save ", "id"=>"1"}
+Redirected to http://localhost:3001/todos/1?content=111111111111111111111&created_at=2024-07-17T01%3A09%3A32.649Z&id=1&title=test1&updated_at=2024-07-17T01%3A09%3A32.649Z
+Completed 302 Found in 16ms (ActiveRecord: 0.0ms | Allocations: 1238)
+
+
+Started GET "/todos/1?content=111111111111111111111&created_at=2024-07-17T01%3A09%3A32.649Z&id=1&title=test1&updated_at=2024-07-17T01%3A09%3A32.649Z" for ::1 at 2024-07-17 14:12:16 +0900
+Processing by TodosController#show as TURBO_STREAM
+  Parameters: {"content"=>"111111111111111111111", "created_at"=>"2024-07-17T01:09:32.649Z", "id"=>"1", "title"=>"test1", "updated_at"=>"2024-07-17T01:09:32.649Z"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 298)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 1586)
+Completed 200 OK in 13ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 2679)
+
+
+Started GET "/todos/1/edit" for ::1 at 2024-07-17 14:13:24 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1533)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 2634)
+Completed 200 OK in 34ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 3621)
+
+
+Started PATCH "/todos/1" for ::1 at 2024-07-17 14:13:29 +0900
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"", "commit"=>"Save ", "id"=>"1"}
+Redirected to http://localhost:3001/todos/1?content=111111111111111111111&created_at=2024-07-17T01%3A09%3A32.649Z&id=1&title=test1&updated_at=2024-07-17T01%3A09%3A32.649Z
+Completed 302 Found in 15ms (ActiveRecord: 0.0ms | Allocations: 1227)
+
+
+Started GET "/todos/1?content=111111111111111111111&created_at=2024-07-17T01%3A09%3A32.649Z&id=1&title=test1&updated_at=2024-07-17T01%3A09%3A32.649Z" for ::1 at 2024-07-17 14:13:29 +0900
+Processing by TodosController#show as TURBO_STREAM
+  Parameters: {"content"=>"111111111111111111111", "created_at"=>"2024-07-17T01:09:32.649Z", "id"=>"1", "title"=>"test1", "updated_at"=>"2024-07-17T01:09:32.649Z"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 1380)
+Completed 200 OK in 12ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 2373)
+
+
+Started GET "/todos/1/edit" for ::1 at 2024-07-17 14:14:07 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1536)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 2638)
+Completed 200 OK in 21ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 3625)
+
+
+Started GET "/todos/1" for ::1 at 2024-07-17 14:14:08 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 1377)
+Completed 200 OK in 14ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 2364)
+
+
+Started GET "/todos/1/edit" for ::1 at 2024-07-17 14:14:09 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1548)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 2649)
+Completed 200 OK in 20ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 3636)
+
+
+Started GET "/todos/1" for ::1 at 2024-07-17 14:14:10 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 1377)
+Completed 200 OK in 18ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 2364)
+
+
+Started PATCH "/todos/1" for ::1 at 2024-07-17 14:14:10 +0900
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"", "commit"=>"Save ", "id"=>"1"}
+Redirected to http://localhost:3001/todos/1?content=111111111111111111111&created_at=2024-07-17T01%3A09%3A32.649Z&id=1&title=test1&updated_at=2024-07-17T01%3A09%3A32.649Z
+Completed 302 Found in 15ms (ActiveRecord: 0.0ms | Allocations: 1211)
+
+
+Started GET "/todos/1?content=111111111111111111111&created_at=2024-07-17T01%3A09%3A32.649Z&id=1&title=test1&updated_at=2024-07-17T01%3A09%3A32.649Z" for ::1 at 2024-07-17 14:14:10 +0900
+Processing by TodosController#show as TURBO_STREAM
+  Parameters: {"content"=>"111111111111111111111", "created_at"=>"2024-07-17T01:09:32.649Z", "id"=>"1", "title"=>"test1", "updated_at"=>"2024-07-17T01:09:32.649Z"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1377)
+Completed 200 OK in 14ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 2367)
+
+
+Started GET "/todos/1/edit" for ::1 at 2024-07-17 14:14:36 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1521)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 2622)
+Completed 200 OK in 18ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3609)
+
+
+Started GET "/todos/1" for ::1 at 2024-07-17 14:14:37 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1389)
+Completed 200 OK in 17ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 2376)
+
+
+Started PATCH "/todos/1" for ::1 at 2024-07-17 14:14:41 +0900
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"", "commit"=>"Save ", "id"=>"1"}
+Redirected to http://localhost:3001/todos/1?content=111111111111111111111&created_at=2024-07-17T01%3A09%3A32.649Z&id=1&title=test1&updated_at=2024-07-17T01%3A09%3A32.649Z
+Completed 302 Found in 12ms (ActiveRecord: 0.0ms | Allocations: 1211)
+
+
+Started GET "/todos/1?content=111111111111111111111&created_at=2024-07-17T01%3A09%3A32.649Z&id=1&title=test1&updated_at=2024-07-17T01%3A09%3A32.649Z" for ::1 at 2024-07-17 14:14:41 +0900
+Processing by TodosController#show as TURBO_STREAM
+  Parameters: {"content"=>"111111111111111111111", "created_at"=>"2024-07-17T01:09:32.649Z", "id"=>"1", "title"=>"test1", "updated_at"=>"2024-07-17T01:09:32.649Z"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 1388)
+Completed 200 OK in 17ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 2379)
+
+
+Started GET "/todos/1/edit" for ::1 at 2024-07-17 14:14:47 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1511)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2612)
+Completed 200 OK in 20ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 3614)
+
+
+Started PATCH "/todos/1" for ::1 at 2024-07-17 14:14:50 +0900
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"aaa", "commit"=>"Save ", "id"=>"1"}
+Redirected to http://localhost:3001/todos/1?content=111111111111111111111&created_at=2024-07-17T01%3A09%3A32.649Z&id=1&title=test1&updated_at=2024-07-17T01%3A09%3A32.649Z
+Completed 302 Found in 17ms (ActiveRecord: 0.0ms | Allocations: 1206)
+
+
+Started GET "/todos/1?content=111111111111111111111&created_at=2024-07-17T01%3A09%3A32.649Z&id=1&title=test1&updated_at=2024-07-17T01%3A09%3A32.649Z" for ::1 at 2024-07-17 14:14:50 +0900
+Processing by TodosController#show as TURBO_STREAM
+  Parameters: {"content"=>"111111111111111111111", "created_at"=>"2024-07-17T01:09:32.649Z", "id"=>"1", "title"=>"test1", "updated_at"=>"2024-07-17T01:09:32.649Z"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 1390)
+Completed 200 OK in 12ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 2380)
+
+
+Started GET "/todos" for ::1 at 2024-07-17 14:15:16 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 316)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 15390)
+Completed 200 OK in 19ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 17133)
+
+
+Started GET "/todos/1/edit" for ::1 at 2024-07-17 14:15:16 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1802)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2904)
+Completed 200 OK in 13ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 3965)
+
+
+Started PATCH "/todos/1" for ::1 at 2024-07-17 14:15:20 +0900
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"aakjfkldsjfkjsdklfjd", "commit"=>"Save ", "id"=>"1"}
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms | Allocations: 1486)
+
+
+  
+NameError (undefined local variable or method `title' for #<TodosController:0x00000000042cc0>):
+  
+app/controllers/todos_controller.rb:23:in `update'
+Started GET "/todos/1?content=111111111111111111111&created_at=2024-07-17T01%3A09%3A32.649Z&id=1&title=test1&updated_at=2024-07-17T01%3A09%3A32.649Z" for ::1 at 2024-07-17 14:15:41 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"content"=>"111111111111111111111", "created_at"=>"2024-07-17T01:09:32.649Z", "id"=>"1", "title"=>"test1", "updated_at"=>"2024-07-17T01:09:32.649Z"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 15474)
+Completed 200 OK in 23ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 17219)
+
+
+Started GET "/todos/1?content=111111111111111111111&created_at=2024-07-17T01%3A09%3A32.649Z&id=1&title=test1&updated_at=2024-07-17T01%3A09%3A32.649Z" for ::1 at 2024-07-17 14:15:41 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"content"=>"111111111111111111111", "created_at"=>"2024-07-17T01:09:32.649Z", "id"=>"1", "title"=>"test1", "updated_at"=>"2024-07-17T01:09:32.649Z"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1406)
+Completed 200 OK in 6ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2408)
+
+
+Started GET "/todos" for ::1 at 2024-07-17 14:15:42 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 282)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 1580)
+Completed 200 OK in 19ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 2626)
+
+
+Started GET "/todos/1/edit" for ::1 at 2024-07-17 14:15:42 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1804)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2905)
+Completed 200 OK in 18ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 3952)
+
+
+Started GET "/todos" for ::1 at 2024-07-17 14:15:45 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 76)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 1395)
+Completed 200 OK in 16ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 2377)
+
+
+Started PATCH "/todos/1" for ::1 at 2024-07-17 14:15:46 +0900
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"ajfksdjfjds", "commit"=>"Save ", "id"=>"1"}
+Redirected to http://localhost:3001/todos/1?content=111111111111111111111&created_at=2024-07-17T01%3A09%3A32.649Z&id=1&title=test1&updated_at=2024-07-17T01%3A09%3A32.649Z
+Completed 302 Found in 12ms (ActiveRecord: 0.0ms | Allocations: 1241)
+
+
+Started GET "/todos/1?content=111111111111111111111&created_at=2024-07-17T01%3A09%3A32.649Z&id=1&title=test1&updated_at=2024-07-17T01%3A09%3A32.649Z" for ::1 at 2024-07-17 14:15:46 +0900
+Processing by TodosController#show as TURBO_STREAM
+  Parameters: {"content"=>"111111111111111111111", "created_at"=>"2024-07-17T01:09:32.649Z", "id"=>"1", "title"=>"test1", "updated_at"=>"2024-07-17T01:09:32.649Z"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1368)
+Completed 200 OK in 13ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 2401)
+
+
+Started PATCH "/tests/1" for ::1 at 2024-07-17 14:17:32 +0900
+Processing by TestsController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "test"=>{"name"=>"aaa", "content"=>"bbb", "datetime"=>"2024-07-17T14:17", "completed_flag"=>"1"}, "commit"=>"Update Test", "id"=>"1"}
+  [1m[36mTest Load (0.5ms)[0m  [1m[34mSELECT "tests".* FROM "tests" WHERE "tests"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tests_controller.rb:64:in `set_test'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tests_controller.rb:41:in `block in update'
+  [1m[36mTest Update (0.9ms)[0m  [1m[33mUPDATE "tests" SET "name" = ?, "content" = ?, "datetime" = ?, "completed_flag" = ?, "updated_at" = ? WHERE "tests"."id" = ?[0m  [["name", "aaa"], ["content", "bbb"], ["datetime", "2024-07-17 14:17:00"], ["completed_flag", 1], ["updated_at", "2024-07-17 05:17:32.777136"], ["id", 1]]
+  ↳ app/controllers/tests_controller.rb:41:in `block in update'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tests_controller.rb:41:in `block in update'
+Redirected to http://localhost:3001/tests/1
+Completed 302 Found in 10ms (ActiveRecord: 2.9ms | Allocations: 7584)
+
+
+Started GET "/tests/1" for ::1 at 2024-07-17 14:17:32 +0900
+Processing by TestsController#show as TURBO_STREAM
+  Parameters: {"id"=>"1"}
+  [1m[36mTest Load (0.0ms)[0m  [1m[34mSELECT "tests".* FROM "tests" WHERE "tests"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tests_controller.rb:64:in `set_test'
+  Rendering layout layouts/application.html.erb
+  Rendering tests/show.html.erb within layouts/application
+  Rendered tests/_test.html.erb (Duration: 0.3ms | Allocations: 244)
+  Rendered tests/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1093)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 15903)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 17213)
+
+
+Started GET "/todos/1/edit" for ::1 at 2024-07-17 14:18:42 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1782)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 16552)
+Completed 200 OK in 23ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 18300)
+
+
+Started GET "/todos/1" for ::1 at 2024-07-17 14:18:42 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 298)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 1576)
+Completed 200 OK in 20ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 2623)
+
+
+Started PATCH "/todos/1" for ::1 at 2024-07-17 14:18:46 +0900
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"sjfklsdjkfjdkl", "commit"=>"Save ", "id"=>"1"}
+[31mUnpermitted parameters: :_method, :authenticity_token, :commit, :id. Context: { controller: TodosController, action: update, request: #<ActionDispatch::Request:0x0000000105e549c0>, params: {"_method"=>"patch", "authenticity_token"=>"[FILTERED]", "title"=>"sjfklsdjkfjdkl", "commit"=>"Save ", "controller"=>"todos", "action"=>"update", "id"=>"1"} }[0m
+Redirected to http://localhost:3001/todos/1?content=111111111111111111111&created_at=2024-07-17T01%3A09%3A32.649Z&id=1&title=test1&updated_at=2024-07-17T01%3A09%3A32.649Z
+Completed 302 Found in 12ms (ActiveRecord: 0.0ms | Allocations: 1381)
+
+
+Started GET "/todos/1?content=111111111111111111111&created_at=2024-07-17T01%3A09%3A32.649Z&id=1&title=test1&updated_at=2024-07-17T01%3A09%3A32.649Z" for ::1 at 2024-07-17 14:18:46 +0900
+Processing by TodosController#show as TURBO_STREAM
+  Parameters: {"content"=>"111111111111111111111", "created_at"=>"2024-07-17T01:09:32.649Z", "id"=>"1", "title"=>"test1", "updated_at"=>"2024-07-17T01:09:32.649Z"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1407)
+Completed 200 OK in 14ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 2440)
+
+
+Started GET "/todos/1/edit" for ::1 at 2024-07-17 14:25:08 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1821)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 16686)
+Completed 200 OK in 24ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 18434)
+
+
+Started GET "/todos/1" for ::1 at 2024-07-17 14:25:11 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 336)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 15437)
+Completed 200 OK in 13ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 17185)
+
+
+Started PATCH "/todos/1" for ::1 at 2024-07-17 14:25:12 +0900
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"test2", "commit"=>"Save ", "id"=>"1"}
+[31mUnpermitted parameters: :_method, :authenticity_token, :commit, :id. Context: { controller: TodosController, action: update, request: #<ActionDispatch::Request:0x0000000106af0288>, params: {"_method"=>"patch", "authenticity_token"=>"[FILTERED]", "title"=>"test2", "commit"=>"Save ", "controller"=>"todos", "action"=>"update", "id"=>"1"} }[0m
+Redirected to http://localhost:3001/todos/1?content=111111111111111111111&created_at=2024-07-17T01%3A09%3A32.649Z&id=1&title=test1&updated_at=2024-07-17T01%3A09%3A32.649Z
+Completed 302 Found in 12ms (ActiveRecord: 0.0ms | Allocations: 1365)
+
+
+Started GET "/todos/1?content=111111111111111111111&created_at=2024-07-17T01%3A09%3A32.649Z&id=1&title=test1&updated_at=2024-07-17T01%3A09%3A32.649Z" for ::1 at 2024-07-17 14:25:12 +0900
+Processing by TodosController#show as TURBO_STREAM
+  Parameters: {"content"=>"111111111111111111111", "created_at"=>"2024-07-17T01:09:32.649Z", "id"=>"1", "title"=>"test1", "updated_at"=>"2024-07-17T01:09:32.649Z"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1380)
+Completed 200 OK in 8ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2414)
+
+
+Started GET "/todos/1/edit" for ::1 at 2024-07-17 14:25:55 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1805)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 16741)
+Completed 200 OK in 23ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 18488)
+
+
+Started GET "/todos" for ::1 at 2024-07-17 14:25:57 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 278)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 1588)
+Completed 200 OK in 21ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 2646)
+
+
+Started PATCH "/todos/1" for ::1 at 2024-07-17 14:25:57 +0900
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"test2", "commit"=>"Save ", "id"=>"1"}
+Completed 400 Bad Request in 13ms (ActiveRecord: 0.0ms | Allocations: 1513)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: todo):
+  
+app/controllers/todos_controller.rb:43:in `todo_params'
+app/controllers/todos_controller.rb:23:in `update'
+Started GET "/todos/1/edit" for ::1 at 2024-07-17 14:25:57 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1523)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 2635)
+Completed 200 OK in 7ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 3651)
+
+
+Started GET "/todos/1/edit" for ::1 at 2024-07-17 14:34:57 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1796)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 16649)
+Completed 200 OK in 77ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 18380)
+
+
+Started PATCH "/todos/1" for ::1 at 2024-07-17 14:34:59 +0900
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"test1", "commit"=>"Save ", "id"=>"1"}
+[31mUnpermitted parameters: :_method, :authenticity_token, :commit, :id. Context: { controller: TodosController, action: update, request: #<ActionDispatch::Request:0x0000000105bddca0>, params: {"_method"=>"patch", "authenticity_token"=>"[FILTERED]", "title"=>"test1", "commit"=>"Save ", "controller"=>"todos", "action"=>"update", "id"=>"1"} }[0m
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 1677)
+
+
+  
+ArgumentError (bad argument (expected URI object or URI string)):
+  
+app/controllers/todos_controller.rb:51:in `api_update_todo'
+app/controllers/todos_controller.rb:25:in `update'
+Started GET "/todos/1?content=111111111111111111111&created_at=2024-07-17T01%3A09%3A32.649Z&id=1&title=test1&updated_at=2024-07-17T01%3A09%3A32.649Z" for ::1 at 2024-07-17 14:36:07 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"content"=>"111111111111111111111", "created_at"=>"2024-07-17T01:09:32.649Z", "id"=>"1", "title"=>"test1", "updated_at"=>"2024-07-17T01:09:32.649Z"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 15404)
+Completed 200 OK in 32ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 17151)
+
+
+Started GET "/todos/1?content=111111111111111111111&created_at=2024-07-17T01%3A09%3A32.649Z&id=1&title=test1&updated_at=2024-07-17T01%3A09%3A32.649Z" for ::1 at 2024-07-17 14:36:07 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"content"=>"111111111111111111111", "created_at"=>"2024-07-17T01:09:32.649Z", "id"=>"1", "title"=>"test1", "updated_at"=>"2024-07-17T01:09:32.649Z"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | Allocations: 1380)
+Completed 200 OK in 6ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 2382)
+
+
+Started GET "/todos/1/edit" for ::1 at 2024-07-17 14:36:08 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1815)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2916)
+Completed 200 OK in 16ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 3963)
+
+
+Started PATCH "/todos/1" for ::1 at 2024-07-17 14:36:10 +0900
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"test1", "commit"=>"Save ", "id"=>"1"}
+[31mUnpermitted parameters: :_method, :authenticity_token, :commit, :id. Context: { controller: TodosController, action: update, request: #<ActionDispatch::Request:0x000000010599b5f0>, params: {"_method"=>"patch", "authenticity_token"=>"[FILTERED]", "title"=>"test1", "commit"=>"Save ", "controller"=>"todos", "action"=>"update", "id"=>"1"} }[0m
+Redirected to http://localhost:3001/todos/1
+Completed 302 Found in 24ms (ActiveRecord: 0.0ms | Allocations: 2280)
+
+
+Started GET "/todos/1" for ::1 at 2024-07-17 14:36:10 +0900
+Processing by TodosController#show as TURBO_STREAM
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1368)
+Completed 200 OK in 9ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2401)
+
+
+Started GET "/todos/1/edit" for ::1 at 2024-07-17 14:36:11 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1518)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 2619)
+Completed 200 OK in 16ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 3606)
+
+
+Started GET "/todos/1" for ::1 at 2024-07-17 14:36:11 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1389)
+Completed 200 OK in 13ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 2376)
+
+
+Started PATCH "/todos/1" for ::1 at 2024-07-17 14:36:14 +0900
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"test2", "commit"=>"Save ", "id"=>"1"}
+[31mUnpermitted parameters: :_method, :authenticity_token, :commit, :id. Context: { controller: TodosController, action: update, request: #<ActionDispatch::Request:0x0000000104f37c80>, params: {"_method"=>"patch", "authenticity_token"=>"[FILTERED]", "title"=>"test2", "commit"=>"Save ", "controller"=>"todos", "action"=>"update", "id"=>"1"} }[0m
+Redirected to http://localhost:3001/todos/1
+Completed 302 Found in 32ms (ActiveRecord: 0.0ms | Allocations: 2171)
+
+
+Started GET "/todos/1" for ::1 at 2024-07-17 14:36:14 +0900
+Processing by TodosController#show as TURBO_STREAM
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1395)
+Completed 200 OK in 9ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 2385)
+
+
+Started GET "/tests" for ::1 at 2024-07-17 17:52:38 +0900
+Processing by TestsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tests/index.html.erb within layouts/application
+  [1m[36mTest Load (0.2ms)[0m  [1m[34mSELECT "tests".* FROM "tests"[0m
+  ↳ app/views/tests/index.html.erb:6
+  Rendered tests/_test.html.erb (Duration: 0.3ms | Allocations: 243)
+  Rendered tests/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 4916)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 19798)
+Completed 200 OK in 20ms (Views: 11.6ms | ActiveRecord: 6.6ms | Allocations: 21358)
+
+
+Started GET "/tests/new" for ::1 at 2024-07-17 17:52:40 +0900
+Processing by TestsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tests/new.html.erb within layouts/application
+  Rendered tests/_form.html.erb (Duration: 4.9ms | Allocations: 1544)
+  Rendered tests/new.html.erb within layouts/application (Duration: 6.9ms | Allocations: 1819)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 2924)
+Completed 200 OK in 13ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 3250)
+
+
+Started POST "/tests" for ::1 at 2024-07-17 17:52:43 +0900
+Processing by TestsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "test"=>{"name"=>"aaa", "content"=>"", "datetime"=>"", "completed_flag"=>"0"}, "commit"=>"Create Test"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tests_controller.rb:27:in `block in create'
+  [1m[36mTest Create (4.3ms)[0m  [1m[32mINSERT INTO "tests" ("name", "content", "datetime", "completed_flag", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["name", "aaa"], ["content", ""], ["datetime", nil], ["completed_flag", 0], ["created_at", "2024-07-17 08:52:43.505237"], ["updated_at", "2024-07-17 08:52:43.505237"]]
+  ↳ app/controllers/tests_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tests_controller.rb:27:in `block in create'
+Redirected to http://localhost:3001/tests/2
+Completed 302 Found in 24ms (ActiveRecord: 4.8ms | Allocations: 2116)
+
+
+Started GET "/tests/2" for ::1 at 2024-07-17 17:52:43 +0900
+Processing by TestsController#show as TURBO_STREAM
+  Parameters: {"id"=>"2"}
+  [1m[36mTest Load (0.1ms)[0m  [1m[34mSELECT "tests".* FROM "tests" WHERE "tests"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tests_controller.rb:63:in `set_test'
+  Rendering layout layouts/application.html.erb
+  Rendering tests/show.html.erb within layouts/application
+  Rendered tests/_test.html.erb (Duration: 0.0ms | Allocations: 21)
+  Rendered tests/show.html.erb within layouts/application (Duration: 2.3ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 1800)
+Completed 200 OK in 13ms (Views: 7.2ms | ActiveRecord: 0.1ms | Allocations: 3192)
+
+
+Started GET "/info" for ::1 at 2024-07-17 17:53:23 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/info"):
+  
+Started GET "/todos" for ::1 at 2024-07-17 17:56:43 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 314)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 15375)
+Completed 200 OK in 28ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 17117)
+
+
+Started GET "/todos/new" for ::1 at 2024-07-17 17:56:45 +0900
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1442)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2751)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 3052)
+
+
+Started GET "/todos/new?title=&commit=Save+" for ::1 at 2024-07-17 17:56:47 +0900
+Processing by TodosController#new as HTML
+  Parameters: {"title"=>"", "commit"=>"Save "}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1195)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2480)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 2720)
+
+
+Started GET "/todos/new?title=&commit=Save+" for ::1 at 2024-07-17 17:58:20 +0900
+Processing by TodosController#new as HTML
+  Parameters: {"title"=>"", "commit"=>"Save "}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1685)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 16554)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 17518)
+
+
+Started POST "/todos" for ::1 at 2024-07-17 17:58:21 +0900
+Processing by TodosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"", "commit"=>"Save "}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/create.html.erb within layouts/application
+  Rendered todos/create.html.erb within layouts/application (Duration: 0.6ms | Allocations: 93)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1195)
+Completed 200 OK in 6ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 1789)
+
+
+Started GET "/todos/new?title=&commit=Save+" for ::1 at 2024-07-17 18:10:13 +0900
+Processing by TodosController#new as HTML
+  Parameters: {"title"=>"", "commit"=>"Save "}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1683)
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 16438)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 17399)
+
+
+Started POST "/todos" for ::1 at 2024-07-17 18:10:17 +0900
+Processing by TodosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"hanakuso", "commit"=>"Save "}
+[31mUnpermitted parameters: :authenticity_token, :commit. Context: { controller: TodosController, action: create, request: #<ActionDispatch::Request:0x0000000105bdc800>, params: {"authenticity_token"=>"[FILTERED]", "title"=>"hanakuso", "commit"=>"Save ", "controller"=>"todos", "action"=>"create"} }[0m
+Redirected to http://localhost:3001/todos/2
+Completed 302 Found in 28ms (ActiveRecord: 0.0ms | Allocations: 1586)
+
+
+Started GET "/todos/2" for ::1 at 2024-07-17 18:10:17 +0900
+Processing by TodosController#show as TURBO_STREAM
+  Parameters: {"id"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 299)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 1611)
+Completed 200 OK in 24ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 2704)
+
+
+Started GET "/todos/2/edit" for ::1 at 2024-07-17 18:19:48 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1788)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2895)
+Completed 200 OK in 20ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 3941)
+
+
+Started GET "/todos" for ::1 at 2024-07-17 18:19:49 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 317)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 1621)
+Completed 200 OK in 17ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 2668)
+
+
+Started GET "/todos" for ::1 at 2024-07-17 18:20:32 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 354)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 15364)
+Completed 200 OK in 10ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 17096)
+
+
+Started GET "/todos/1" for ::1 at 2024-07-17 18:20:40 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 300)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 1627)
+Completed 200 OK in 14ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 2676)
+
+
+Started GET "/todos" for ::1 at 2024-07-17 18:20:43 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 115)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 1416)
+Completed 200 OK in 15ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 2402)
+
+
+Started GET "/todos" for ::1 at 2024-07-17 18:21:04 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 115)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 1439)
+Completed 200 OK in 9ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 2426)
+
+
