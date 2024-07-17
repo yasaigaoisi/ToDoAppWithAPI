@@ -1,0 +1,15 @@
+<h1>Todo#edit</h1>
+
+<%= form_with url: todo_path(id: @todo["id"]), method: :patch do |form| %>
+  <div>
+    <%= form.label :title, style: "display: block" %>
+    <%= form.text_field :title, value: @todo["title"] %>
+  </div>
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
+<div>
+  <%= link_to "Back", todo_path(id: @todo["id"]) %>
+  <%= link_to "Back to todos", todos_path %>
+</div>

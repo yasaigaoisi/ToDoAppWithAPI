@@ -1,0 +1,14 @@
+<h1>Todo#new</h1>
+
+<%= form_with url: todos_path do |form| %>
+  <div>
+    <%= form.label :title, style: "display: block" %>
+    <%= form.text_field :title %>
+  </div>
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
+<div>
+  <%= link_to "Back", todos_path %>
+</div>
