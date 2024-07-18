@@ -19,7 +19,7 @@ class TodosController < ApplicationController
   def create
     # APIに新規リクエストを送信
     response = api_create_todo(todo_params)
-    
+
     if response.success?
       redirect_to todo_path(response.body['id']), notice: 'Todo was successfully created.'
     else
@@ -52,7 +52,7 @@ class TodosController < ApplicationController
     end
 
     def todo_params
-      params.permit(:title)
+      params.permit(:title, :content, :datetime, :complete_flag)
     end
 
     def api_update_todo(id, todo_data)
