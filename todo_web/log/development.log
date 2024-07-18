@@ -2151,3 +2151,1789 @@ Processing by TodosController#index as HTML
 Completed 200 OK in 9ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 2426)
 
 
+Started GET "/todos/1" for ::1 at 2024-07-17 18:37:14 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 599)
+  Rendered layout layouts/application.html.erb (Duration: 39.9ms | Allocations: 34818)
+Completed 200 OK in 58ms (Views: 41.6ms | ActiveRecord: 0.0ms | Allocations: 40126)
+
+
+Started GET "/todos" for ::1 at 2024-07-17 18:37:15 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 335)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 1644)
+Completed 200 OK in 19ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 2714)
+
+
+Started GET "/todos/new" for ::1 at 2024-07-17 18:37:17 +0900
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/new.html.erb within layouts/application (Duration: 5.9ms | Allocations: 2298)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 3403)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 3706)
+
+
+Started GET "/todos/2" for ::1 at 2024-07-18 15:34:20 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 76)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 1392)
+Completed 200 OK in 38ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 2393)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:34:21 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 115)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1422)
+Completed 200 OK in 17ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 2408)
+
+
+Started GET "/todos/2/edit" for ::1 at 2024-07-18 15:34:22 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 6.6ms | Allocations: 1822)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 2923)
+Completed 200 OK in 21ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 3970)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:34:23 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 115)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1419)
+Completed 200 OK in 18ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 2405)
+
+
+Started GET "/todos/2" for ::1 at 2024-07-18 15:34:24 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 76)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 1373)
+Completed 200 OK in 14ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 2359)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:34:25 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 115)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 1425)
+Completed 200 OK in 14ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 2413)
+
+
+Started GET "/todos/new" for ::1 at 2024-07-18 15:34:27 +0900
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1430)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2535)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 2775)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:34:28 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 115)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 1425)
+Completed 200 OK in 12ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 2411)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:34:29 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 115)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 1419)
+Completed 200 OK in 16ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 2405)
+
+
+Started GET "/todos/new" for ::1 at 2024-07-18 15:34:29 +0900
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1455)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2560)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 2800)
+
+
+Started GET "/todos/2" for ::1 at 2024-07-18 15:34:32 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 76)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 1367)
+Completed 200 OK in 15ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 2353)
+
+
+Started GET "/todos/2" for ::1 at 2024-07-18 15:34:33 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 76)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1373)
+Completed 200 OK in 15ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 2359)
+
+
+Started GET "/todos/2/edit" for ::1 at 2024-07-18 15:34:34 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1544)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2645)
+Completed 200 OK in 15ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 3631)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:34:35 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 115)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1413)
+Completed 200 OK in 16ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 2399)
+
+
+Started GET "/todos/2" for ::1 at 2024-07-18 15:34:35 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 76)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 1388)
+Completed 200 OK in 17ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 2374)
+
+
+Started GET "/todos/2/edit" for ::1 at 2024-07-18 15:34:36 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1522)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2634)
+Completed 200 OK in 13ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 3637)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:34:37 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 115)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 1425)
+Completed 200 OK in 17ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 2414)
+
+
+Started GET "/todos/2" for ::1 at 2024-07-18 15:35:08 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 76)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 1376)
+Completed 200 OK in 23ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 2362)
+
+
+Started GET "/todos/2/edit" for ::1 at 2024-07-18 15:41:44 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1810)
+Started GET "/todos" for ::1 at 2024-07-18 15:41:44 +0900
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 17151)
+Completed 200 OK in 82ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 18899)
+
+
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 353)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 15347)
+Completed 200 OK in 13ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 17074)
+
+
+Started GET "/todos/new" for ::1 at 2024-07-18 15:41:45 +0900
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/new.html.erb within layouts/application (Duration: 8.2ms | Allocations: 5051)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 6161)
+Completed 200 OK in 14ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 6461)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:41:45 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 115)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1410)
+Completed 200 OK in 8ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2411)
+
+
+Started POST "/todos" for ::1 at 2024-07-18 15:42:08 +0900
+Processing by TodosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"test", "content"=>"test content", "datetime"=>"2024-07-18T15:42", "complete_flag"=>"1", "commit"=>"Save "}
+[31mUnpermitted parameters: :authenticity_token, :commit. Context: { controller: TodosController, action: create, request: #<ActionDispatch::Request:0x00000001089ff480>, params: {"authenticity_token"=>"[FILTERED]", "title"=>"test", "content"=>"test content", "datetime"=>"2024-07-18T15:42", "complete_flag"=>"1", "commit"=>"Save ", "controller"=>"todos", "action"=>"create"} }[0m
+Redirected to http://localhost:3001/todos/3
+Completed 302 Found in 15ms (ActiveRecord: 0.0ms | Allocations: 1793)
+
+
+Started GET "/todos/3" for ::1 at 2024-07-18 15:42:08 +0900
+Processing by TodosController#show as TURBO_STREAM
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 302)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1614)
+Completed 200 OK in 11ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 2709)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:42:14 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 1467)
+Completed 200 OK in 14ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 2459)
+
+
+Started GET "/todos/3/edit" for ::1 at 2024-07-18 15:42:14 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1790)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 2891)
+Completed 200 OK in 19ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3939)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:42:14 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 1476)
+Completed 200 OK in 7ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2468)
+
+
+Started GET "/todos/3" for ::1 at 2024-07-18 15:42:16 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1373)
+Completed 200 OK in 15ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 2361)
+
+
+Started GET "/todos/new" for ::1 at 2024-07-18 15:42:17 +0900
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 4231)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 5336)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 5577)
+
+
+Started GET "/todos/new" for ::1 at 2024-07-18 15:46:59 +0900
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1637)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1730)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2697)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `form' for #<ActionView::Base:0x00000000016418>):
+    1: <h1>Todo#new</h1>
+    2: 
+    3: <%= render form %>
+    4: 
+    5: <%= form_with url: todos_path do |form| %>
+    6:   <div>
+  
+app/views/todos/new.html.erb:3
+Started GET "/todos" for ::1 at 2024-07-18 15:47:08 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 388)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 15467)
+Completed 200 OK in 36ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 16564)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:47:24 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 662)
+  Rendered layout layouts/application.html.erb (Duration: 36.6ms | Allocations: 34276)
+Completed 200 OK in 48ms (Views: 38.5ms | ActiveRecord: 0.0ms | Allocations: 39573)
+
+
+Started GET "/todos/new" for ::1 at 2024-07-18 15:47:25 +0900
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1703)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 1794)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2113)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `form' for #<ActionView::Base:0x0000000000b360>):
+    1: <h1>Todo#new</h1>
+    2: 
+    3: <%= render form %>
+    4: 
+    5: <%= form_with url: todos_path do |form| %>
+    6:   <div>
+  
+app/views/todos/new.html.erb:3
+Started GET "/todos" for ::1 at 2024-07-18 15:47:27 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 154)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 1463)
+Completed 200 OK in 15ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 2478)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:48:35 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 392)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 15568)
+Completed 200 OK in 22ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 17306)
+
+
+Started GET "/todos/new" for ::1 at 2024-07-18 15:48:36 +0900
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 16.4ms | Allocations: 5987)
+  Rendered todos/new.html.erb within layouts/application (Duration: 22.8ms | Allocations: 10304)
+  Rendered layout layouts/application.html.erb (Duration: 24.3ms | Allocations: 11414)
+Completed 200 OK in 26ms (Views: 24.8ms | ActiveRecord: 0.0ms | Allocations: 11714)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:49:01 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 392)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 15378)
+Completed 200 OK in 31ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 17129)
+
+
+Started GET "/todos/new" for ::1 at 2024-07-18 15:49:02 +0900
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 4.4ms | Allocations: 4913)
+  Rendered todos/new.html.erb within layouts/application (Duration: 5.8ms | Allocations: 5185)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 6290)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 6592)
+
+
+Started GET "/todos/new" for ::1 at 2024-07-18 15:49:02 +0900
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 2.1ms | Allocations: 4578)
+  Rendered todos/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 4657)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 5762)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 6002)
+
+
+Started POST "/todos" for ::1 at 2024-07-18 15:49:12 +0900
+Processing by TodosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"aaa", "content"=>"bbb", "datetime"=>"2024-07-18T15:49", "complete_flag"=>"1", "commit"=>"Save "}
+[31mUnpermitted parameters: :authenticity_token, :commit. Context: { controller: TodosController, action: create, request: #<ActionDispatch::Request:0x0000000107732280>, params: {"authenticity_token"=>"[FILTERED]", "title"=>"aaa", "content"=>"bbb", "datetime"=>"2024-07-18T15:49", "complete_flag"=>"1", "commit"=>"Save ", "controller"=>"todos", "action"=>"create"} }[0m
+Redirected to http://localhost:3001/todos/4
+Completed 302 Found in 16ms (ActiveRecord: 0.0ms | Allocations: 1805)
+
+
+Started GET "/todos/4" for ::1 at 2024-07-18 15:49:12 +0900
+Processing by TodosController#show as TURBO_STREAM
+  Parameters: {"id"=>"4"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 309)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1594)
+Completed 200 OK in 8ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 2690)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:49:13 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1485)
+Completed 200 OK in 16ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2481)
+
+
+Started GET "/todos/4" for ::1 at 2024-07-18 15:49:14 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"4"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1391)
+Completed 200 OK in 15ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 2379)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:49:15 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1494)
+Completed 200 OK in 15ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 2492)
+
+
+Started GET "/todos/4" for ::1 at 2024-07-18 15:49:46 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"4"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 340)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 15425)
+Completed 200 OK in 19ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 17173)
+
+
+Started GET "/todos/4/edit" for ::1 at 2024-07-18 15:49:46 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"4"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 2.7ms | Allocations: 4927)
+  Rendered todos/edit.html.erb within layouts/application (Duration: 3.9ms | Allocations: 5264)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 6365)
+Completed 200 OK in 18ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 7426)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:49:49 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 395)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 1726)
+Completed 200 OK in 15ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 2785)
+
+
+Started GET "/todos/4" for ::1 at 2024-07-18 15:49:50 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"4"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 1371)
+Completed 200 OK in 14ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 2359)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:49:52 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1497)
+Completed 200 OK in 15ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 2496)
+
+
+Started GET "/todos/new" for ::1 at 2024-07-18 15:49:53 +0900
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 2.7ms | Allocations: 4593)
+  Rendered todos/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 4801)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 5906)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 6206)
+
+
+Started GET "/todos/4" for ::1 at 2024-07-18 15:49:54 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"4"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 1379)
+Completed 200 OK in 14ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 2367)
+
+
+Started GET "/todos/2" for ::1 at 2024-07-18 15:52:28 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 333)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 15440)
+Completed 200 OK in 26ms (Views: 13.6ms | ActiveRecord: 0.0ms | Allocations: 17180)
+
+
+Started GET "/todos/4" for ::1 at 2024-07-18 15:52:28 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"4"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1387)
+Completed 200 OK in 15ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 2390)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:52:29 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 399)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 1721)
+Completed 200 OK in 9ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 2780)
+
+
+Started GET "/todos/4/edit" for ::1 at 2024-07-18 15:52:29 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"4"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 3.2ms | Allocations: 4922)
+  Rendered todos/edit.html.erb within layouts/application (Duration: 4.5ms | Allocations: 5256)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 6357)
+Completed 200 OK in 20ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 7405)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:52:34 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 1525)
+Completed 200 OK in 14ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 2536)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:52:38 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 1512)
+Completed 200 OK in 15ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 2511)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:52:46 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1518)
+Completed 200 OK in 15ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 2516)
+
+
+Started GET "/todos/4" for ::1 at 2024-07-18 15:52:47 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"4"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 1370)
+Completed 200 OK in 21ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 2370)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:52:54 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 1497)
+Completed 200 OK in 18ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 2507)
+
+
+Started GET "/todos/4/edit" for ::1 at 2024-07-18 15:52:54 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"4"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 2.9ms | Allocations: 4600)
+  Rendered todos/edit.html.erb within layouts/application (Duration: 3.3ms | Allocations: 4717)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 5818)
+Completed 200 OK in 21ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 6806)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:52:58 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 1516)
+Completed 200 OK in 20ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 2514)
+
+
+Started GET "/todos/3" for ::1 at 2024-07-18 15:53:06 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1394)
+Completed 200 OK in 15ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 2383)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:53:07 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1482)
+Completed 200 OK in 17ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 2480)
+
+
+Started GET "/todos/3/edit" for ::1 at 2024-07-18 15:53:08 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 2.9ms | Allocations: 4587)
+  Rendered todos/edit.html.erb within layouts/application (Duration: 3.3ms | Allocations: 4704)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 5805)
+Completed 200 OK in 16ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 6793)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:53:10 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1500)
+Completed 200 OK in 15ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 2498)
+
+
+Started GET "/todos/new" for ::1 at 2024-07-18 15:53:11 +0900
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 1.4ms | Allocations: 2002)
+  Rendered todos/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 2214)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 2305)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2603)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `todo' for #<ActionView::Base:0x0000000001a270>):
+    1: <%= form_with url: todos_path do |form| %>
+    2:   <div>
+    3:     <%= form.label :title, style: "display: block" %>
+    4:     <%= form.text_field :title, value: todo["title"] %>
+    5:   </div>
+    6:   <div>
+    7:     <%= form.label :content, style: "display: block" %>
+  
+app/views/todos/_form.html.erb:4
+app/views/todos/_form.html.erb:1
+app/views/todos/new.html.erb:3
+Started GET "/todos/new" for ::1 at 2024-07-18 15:53:13 +0900
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 1.3ms | Allocations: 1706)
+  Rendered todos/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1769)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1860)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 2090)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `todo' for #<ActionView::Base:0x0000000001a540>):
+    1: <%= form_with url: todos_path do |form| %>
+    2:   <div>
+    3:     <%= form.label :title, style: "display: block" %>
+    4:     <%= form.text_field :title, value: todo["title"] %>
+    5:   </div>
+    6:   <div>
+    7:     <%= form.label :content, style: "display: block" %>
+  
+app/views/todos/_form.html.erb:4
+app/views/todos/_form.html.erb:1
+app/views/todos/new.html.erb:3
+Started GET "/todos/4" for ::1 at 2024-07-18 15:53:14 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"4"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 1405)
+Completed 200 OK in 5ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 2407)
+
+
+Started GET "/todos/3" for ::1 at 2024-07-18 15:53:15 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 1382)
+Completed 200 OK in 20ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 2369)
+
+
+Started GET "/todos/3" for ::1 at 2024-07-18 15:53:17 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1397)
+Completed 200 OK in 15ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 2384)
+
+
+Started GET "/todos/2" for ::1 at 2024-07-18 15:55:03 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 333)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 15410)
+Completed 200 OK in 16ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 17136)
+
+
+Started GET "/todos/2/edit" for ::1 at 2024-07-18 15:55:04 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 3.0ms | Allocations: 5063)
+  Rendered todos/edit.html.erb within layouts/application (Duration: 9.7ms | Allocations: 5342)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 5433)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms | Allocations: 6479)
+
+
+  
+ActionView::Template::Error (undefined method `to_bool' for nil:NilClass):
+    13:   </div>
+    14:   <div>
+    15:     <%= form.label :complete_flag, style: "display: block" %>
+    16:     <%= form.check_box :complete_flag, value: todo["complete_flag"].to_bool %>
+    17:   </div>
+    18:   <div>
+    19:     <%= form.submit %>
+  
+app/views/todos/_form.html.erb:16
+app/views/todos/_form.html.erb:1
+app/views/todos/edit.html.erb:3
+Started GET "/todos/2" for ::1 at 2024-07-18 15:55:15 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 76)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1390)
+Completed 200 OK in 18ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 2405)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:55:17 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 397)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1704)
+Completed 200 OK in 16ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 2762)
+
+
+Started GET "/todos/4" for ::1 at 2024-07-18 15:55:18 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"4"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 1387)
+Completed 200 OK in 19ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 2391)
+
+
+Started GET "/todos/4/edit" for ::1 at 2024-07-18 15:55:19 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"4"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 1.4ms | Allocations: 4740)
+  Rendered todos/edit.html.erb within layouts/application (Duration: 1.6ms | Allocations: 4803)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 4894)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 5872)
+
+
+  
+ActionView::Template::Error (undefined method `to_bool' for true:TrueClass):
+    13:   </div>
+    14:   <div>
+    15:     <%= form.label :complete_flag, style: "display: block" %>
+    16:     <%= form.check_box :complete_flag, value: todo["complete_flag"].to_bool %>
+    17:   </div>
+    18:   <div>
+    19:     <%= form.submit %>
+  
+app/views/todos/_form.html.erb:16
+app/views/todos/_form.html.erb:1
+app/views/todos/edit.html.erb:3
+Started GET "/todos/4" for ::1 at 2024-07-18 15:55:26 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"4"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1420)
+Completed 200 OK in 15ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 2422)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:55:30 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 1497)
+Completed 200 OK in 13ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 2494)
+
+
+Started GET "/todos/3" for ::1 at 2024-07-18 15:55:31 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1385)
+Completed 200 OK in 13ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 2372)
+
+
+Started GET "/todos/2" for ::1 at 2024-07-18 15:55:31 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 76)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 1394)
+Completed 200 OK in 13ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 2379)
+
+
+Started GET "/todos/3" for ::1 at 2024-07-18 15:55:33 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1382)
+Completed 200 OK in 17ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 2369)
+
+
+Started GET "/todos/3" for ::1 at 2024-07-18 15:55:34 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 1379)
+Completed 200 OK in 18ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 2366)
+
+
+Started GET "/todos/1" for ::1 at 2024-07-18 15:55:34 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 1389)
+Completed 200 OK in 16ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 2375)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:55:51 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 431)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 15497)
+Completed 200 OK in 32ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 17234)
+
+
+Started GET "/todos/3" for ::1 at 2024-07-18 15:55:51 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 302)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 1593)
+Completed 200 OK in 23ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 2642)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:55:52 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1509)
+Completed 200 OK in 16ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 2506)
+
+
+Started GET "/todos/4" for ::1 at 2024-07-18 15:55:53 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"4"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 1403)
+Completed 200 OK in 17ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 2390)
+
+
+Started GET "/todos/3" for ::1 at 2024-07-18 15:55:53 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 1379)
+Completed 200 OK in 15ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 2366)
+
+
+Started GET "/todos/3/edit" for ::1 at 2024-07-18 15:55:54 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 4.2ms | Allocations: 4954)
+  Rendered todos/edit.html.erb within layouts/application (Duration: 5.0ms | Allocations: 5290)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 6402)
+Completed 200 OK in 15ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 7466)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:55:56 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 193)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1509)
+Completed 200 OK in 14ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 2507)
+
+
+Started GET "/todos/4" for ::1 at 2024-07-18 15:56:05 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"4"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 1390)
+Completed 200 OK in 41ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 2379)
+
+
+Started GET "/todos/4/edit" for ::1 at 2024-07-18 15:56:05 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"4"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 2.7ms | Allocations: 4602)
+  Rendered todos/edit.html.erb within layouts/application (Duration: 3.0ms | Allocations: 4719)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 5822)
+Completed 200 OK in 21ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 6810)
+
+
+Started POST "/todos" for ::1 at 2024-07-18 15:56:09 +0900
+Processing by TodosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"aaa", "content"=>"bbb", "datetime"=>"", "complete_flag"=>"0", "commit"=>"Save "}
+[31mUnpermitted parameters: :authenticity_token, :commit. Context: { controller: TodosController, action: create, request: #<ActionDispatch::Request:0x00000001097532a8>, params: {"authenticity_token"=>"[FILTERED]", "title"=>"aaa", "content"=>"bbb", "datetime"=>"", "complete_flag"=>"0", "commit"=>"Save ", "controller"=>"todos", "action"=>"create"} }[0m
+Redirected to http://localhost:3001/todos/5
+Completed 302 Found in 42ms (ActiveRecord: 0.0ms | Allocations: 1561)
+
+
+Started GET "/todos/5" for ::1 at 2024-07-18 15:56:09 +0900
+Processing by TodosController#show as TURBO_STREAM
+  Parameters: {"id"=>"5"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1410)
+Completed 200 OK in 8ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2443)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:56:09 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 1572)
+Completed 200 OK in 16ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 2575)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:56:10 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 1533)
+Completed 200 OK in 16ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 2536)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:56:16 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1521)
+Completed 200 OK in 18ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 2524)
+
+
+Started GET "/todos/5" for ::1 at 2024-07-18 15:56:20 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"5"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1387)
+Completed 200 OK in 13ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 2374)
+
+
+Started GET "/todos/4" for ::1 at 2024-07-18 15:56:22 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"4"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1379)
+Completed 200 OK in 16ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 2367)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:56:23 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 1542)
+Completed 200 OK in 14ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 2545)
+
+
+Started GET "/todos/4/edit" for ::1 at 2024-07-18 15:56:23 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"4"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 2.5ms | Allocations: 4603)
+  Rendered todos/edit.html.erb within layouts/application (Duration: 2.7ms | Allocations: 4720)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 5821)
+Completed 200 OK in 17ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 6809)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 15:56:24 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 232)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 1545)
+Completed 200 OK in 18ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 2548)
+
+
+Started GET "/todos/5" for ::1 at 2024-07-18 15:56:25 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"5"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1369)
+Completed 200 OK in 14ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 2356)
+
+
+Started GET "/todos/5/edit" for ::1 at 2024-07-18 15:56:26 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"5"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 3.4ms | Allocations: 4607)
+  Rendered todos/edit.html.erb within layouts/application (Duration: 3.7ms | Allocations: 4724)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 5825)
+Completed 200 OK in 20ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 6812)
+
+
+Started POST "/todos" for ::1 at 2024-07-18 15:56:31 +0900
+Processing by TodosController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"aaa", "content"=>"bbb", "datetime"=>"", "complete_flag"=>"0", "commit"=>"Save "}
+[31mUnpermitted parameters: :authenticity_token, :commit. Context: { controller: TodosController, action: create, request: #<ActionDispatch::Request:0x0000000108246a40>, params: {"authenticity_token"=>"[FILTERED]", "title"=>"aaa", "content"=>"bbb", "datetime"=>"", "complete_flag"=>"0", "commit"=>"Save ", "controller"=>"todos", "action"=>"create"} }[0m
+Redirected to http://localhost:3001/todos/6
+Completed 302 Found in 15ms (ActiveRecord: 0.0ms | Allocations: 1504)
+
+
+Started GET "/todos/6" for ::1 at 2024-07-18 15:56:31 +0900
+Processing by TodosController#show as TURBO_STREAM
+  Parameters: {"id"=>"6"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1387)
+Completed 200 OK in 10ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2377)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 16:01:54 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 271)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 1587)
+Completed 200 OK in 38ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 2595)
+
+
+Started GET "/todos/new" for ::1 at 2024-07-18 16:01:54 +0900
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/_form.html.erb (Duration: 2.3ms | Allocations: 2002)
+  Rendered todos/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 2213)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2304)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2602)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `todo' for #<ActionView::Base:0x00000000022a38>):
+    1: <%= form_with url: todos_path do |form| %>
+    2:   <div>
+    3:     <%= form.label :title, style: "display: block" %>
+    4:     <%= form.text_field :title, value: todo["title"] %>
+    5:   </div>
+    6:   <div>
+    7:     <%= form.label :content, style: "display: block" %>
+  
+app/views/todos/_form.html.erb:4
+app/views/todos/_form.html.erb:1
+app/views/todos/new.html.erb:3
+Started GET "/todos" for ::1 at 2024-07-18 16:02:02 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 271)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1586)
+Completed 200 OK in 14ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 2608)
+
+
+Started GET "/todos/new" for ::1 at 2024-07-18 16:04:04 +0900
+Processing by TodosController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/new.html.erb within layouts/application
+  Rendered todos/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 4562)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 19419)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 20376)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 16:04:06 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 476)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1774)
+Completed 200 OK in 26ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 2862)
+
+
+Started GET "/todos/6" for ::1 at 2024-07-18 16:04:07 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"6"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 299)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 1617)
+Completed 200 OK in 20ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 2665)
+
+
+Started GET "/todos/6" for ::1 at 2024-07-18 16:04:08 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"6"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1372)
+Completed 200 OK in 20ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 2358)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 16:04:09 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 271)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 1581)
+Completed 200 OK in 16ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 2588)
+
+
+Started GET "/todos/6/edit" for ::1 at 2024-07-18 16:04:09 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"6"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 3.0ms | Allocations: 4685)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 5786)
+Completed 200 OK in 18ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 6832)
+
+
+Started PATCH "/todos/6" for ::1 at 2024-07-18 16:04:11 +0900
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"aaa", "content"=>"bbb", "datetime"=>"", "complete_flag"=>"0", "commit"=>"Save ", "id"=>"6"}
+[31mUnpermitted parameters: :_method, :authenticity_token, :commit, :id. Context: { controller: TodosController, action: update, request: #<ActionDispatch::Request:0x0000000106410f08>, params: {"_method"=>"patch", "authenticity_token"=>"[FILTERED]", "title"=>"aaa", "content"=>"bbb", "datetime"=>"", "complete_flag"=>"0", "commit"=>"Save ", "controller"=>"todos", "action"=>"update", "id"=>"6"} }[0m
+Redirected to http://localhost:3001/todos/6
+Completed 302 Found in 21ms (ActiveRecord: 0.0ms | Allocations: 2231)
+
+
+Started GET "/todos/6" for ::1 at 2024-07-18 16:04:11 +0900
+Processing by TodosController#show as TURBO_STREAM
+  Parameters: {"id"=>"6"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1375)
+Completed 200 OK in 8ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 2407)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 16:04:12 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 271)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 1593)
+Completed 200 OK in 15ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 2600)
+
+
+Started GET "/todos/1" for ::1 at 2024-07-18 16:04:14 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 77)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1373)
+Completed 200 OK in 12ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 2376)
+
+
+Started GET "/todos/1/edit" for ::1 at 2024-07-18 16:04:15 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 2.8ms | Allocations: 4314)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 5416)
+Completed 200 OK in 17ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 6403)
+
+
+Started PATCH "/todos/1" for ::1 at 2024-07-18 16:04:17 +0900
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"test2", "content"=>"111111111111111111111", "datetime"=>"", "complete_flag"=>"0", "commit"=>"Save ", "id"=>"1"}
+[31mUnpermitted parameters: :_method, :authenticity_token, :commit, :id. Context: { controller: TodosController, action: update, request: #<ActionDispatch::Request:0x0000000109650b58>, params: {"_method"=>"patch", "authenticity_token"=>"[FILTERED]", "title"=>"test2", "content"=>"111111111111111111111", "datetime"=>"", "complete_flag"=>"0", "commit"=>"Save ", "controller"=>"todos", "action"=>"update", "id"=>"1"} }[0m
+Redirected to http://localhost:3001/todos/1
+Completed 302 Found in 24ms (ActiveRecord: 0.0ms | Allocations: 2206)
+
+
+Started GET "/todos/1" for ::1 at 2024-07-18 16:04:17 +0900
+Processing by TodosController#show as TURBO_STREAM
+  Parameters: {"id"=>"1"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1375)
+Completed 200 OK in 6ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2368)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 16:04:18 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 271)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 1590)
+Completed 200 OK in 16ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 2598)
+
+
+Started GET "/todos/2" for ::1 at 2024-07-18 16:04:19 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 76)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1380)
+Completed 200 OK in 15ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 2378)
+
+
+Started GET "/todos/2/edit" for ::1 at 2024-07-18 16:04:20 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 2.3ms | Allocations: 4294)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 5395)
+Completed 200 OK in 17ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 6381)
+
+
+Started PATCH "/todos/2" for ::1 at 2024-07-18 16:04:22 +0900
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"hanakuso", "content"=>"", "datetime"=>"", "complete_flag"=>"0", "commit"=>"Save ", "id"=>"2"}
+[31mUnpermitted parameters: :_method, :authenticity_token, :commit, :id. Context: { controller: TodosController, action: update, request: #<ActionDispatch::Request:0x00000001092549c8>, params: {"_method"=>"patch", "authenticity_token"=>"[FILTERED]", "title"=>"hanakuso", "content"=>"", "datetime"=>"", "complete_flag"=>"0", "commit"=>"Save ", "controller"=>"todos", "action"=>"update", "id"=>"2"} }[0m
+Redirected to http://localhost:3001/todos/2
+Completed 302 Found in 25ms (ActiveRecord: 0.0ms | Allocations: 2195)
+
+
+Started GET "/todos/2" for ::1 at 2024-07-18 16:04:22 +0900
+Processing by TodosController#show as TURBO_STREAM
+  Parameters: {"id"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 1390)
+Completed 200 OK in 8ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 2380)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 16:04:22 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 271)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 1572)
+Completed 200 OK in 18ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 2581)
+
+
+Started GET "/todos/4" for ::1 at 2024-07-18 16:04:23 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"4"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 1400)
+Completed 200 OK in 15ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 2388)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 16:04:24 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 271)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 1566)
+Completed 200 OK in 13ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 2575)
+
+
+Started GET "/todos/4/edit" for ::1 at 2024-07-18 16:04:25 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"4"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 3.0ms | Allocations: 4296)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 5397)
+Completed 200 OK in 17ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 6385)
+
+
+Started PATCH "/todos/4" for ::1 at 2024-07-18 16:04:26 +0900
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"aaa", "content"=>"bbb", "datetime"=>"", "complete_flag"=>"0", "commit"=>"Save ", "id"=>"4"}
+[31mUnpermitted parameters: :_method, :authenticity_token, :commit, :id. Context: { controller: TodosController, action: update, request: #<ActionDispatch::Request:0x0000000108346a58>, params: {"_method"=>"patch", "authenticity_token"=>"[FILTERED]", "title"=>"aaa", "content"=>"bbb", "datetime"=>"", "complete_flag"=>"0", "commit"=>"Save ", "controller"=>"todos", "action"=>"update", "id"=>"4"} }[0m
+Redirected to http://localhost:3001/todos/4
+Completed 302 Found in 22ms (ActiveRecord: 0.0ms | Allocations: 2197)
+
+
+Started GET "/todos/4" for ::1 at 2024-07-18 16:04:26 +0900
+Processing by TodosController#show as TURBO_STREAM
+  Parameters: {"id"=>"4"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 1384)
+Completed 200 OK in 8ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2374)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 16:04:27 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 271)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1587)
+Completed 200 OK in 15ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 2595)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 16:04:31 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 271)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1569)
+Completed 200 OK in 17ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 2577)
+
+
+Started GET "/todos/5" for ::1 at 2024-07-18 16:04:32 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"5"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1375)
+Completed 200 OK in 14ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 2362)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 16:04:33 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 271)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 1596)
+Completed 200 OK in 18ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 2604)
+
+
+Started GET "/todos/4" for ::1 at 2024-07-18 16:04:34 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"4"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 1363)
+Completed 200 OK in 12ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 2350)
+
+
+Started GET "/todos/3" for ::1 at 2024-07-18 16:04:34 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 1400)
+Completed 200 OK in 16ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 2388)
+
+
+Started GET "/todos/3/edit" for ::1 at 2024-07-18 16:04:35 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 2.4ms | Allocations: 4292)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 5393)
+Completed 200 OK in 16ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 6381)
+
+
+Started PATCH "/todos/3" for ::1 at 2024-07-18 16:04:38 +0900
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"test", "content"=>"test content", "datetime"=>"", "complete_flag"=>"0", "commit"=>"Save ", "id"=>"3"}
+[31mUnpermitted parameters: :_method, :authenticity_token, :commit, :id. Context: { controller: TodosController, action: update, request: #<ActionDispatch::Request:0x0000000109758028>, params: {"_method"=>"patch", "authenticity_token"=>"[FILTERED]", "title"=>"test", "content"=>"test content", "datetime"=>"", "complete_flag"=>"0", "commit"=>"Save ", "controller"=>"todos", "action"=>"update", "id"=>"3"} }[0m
+Redirected to http://localhost:3001/todos/3
+Completed 302 Found in 24ms (ActiveRecord: 0.0ms | Allocations: 2215)
+
+
+Started GET "/todos/3" for ::1 at 2024-07-18 16:04:38 +0900
+Processing by TodosController#show as TURBO_STREAM
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1411)
+Completed 200 OK in 9ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2401)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 16:09:40 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 271)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 1569)
+Completed 200 OK in 39ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 2576)
+
+
+Started GET "/todos/3/edit" for ::1 at 2024-07-18 16:09:46 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 4.7ms | Allocations: 4297)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 5409)
+Completed 200 OK in 18ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 6412)
+
+
+Started GET "/todos/3" for ::1 at 2024-07-18 16:12:44 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 339)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 15424)
+Completed 200 OK in 22ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 17171)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 16:12:45 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 475)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 1764)
+Completed 200 OK in 20ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 2832)
+
+
+Started GET "/todos/3/edit" for ::1 at 2024-07-18 16:12:46 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 4.2ms | Allocations: 4677)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 5778)
+Completed 200 OK in 21ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 6825)
+
+
+Started PATCH "/todos/3" for ::1 at 2024-07-18 16:12:48 +0900
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"test", "content"=>"test content", "datetime"=>"", "complete_flag"=>"1", "commit"=>"Save ", "id"=>"3"}
+[31mUnpermitted parameters: :_method, :authenticity_token, :commit, :id. Context: { controller: TodosController, action: update, request: #<ActionDispatch::Request:0x00000001081a62c0>, params: {"_method"=>"patch", "authenticity_token"=>"[FILTERED]", "title"=>"test", "content"=>"test content", "datetime"=>"", "complete_flag"=>"1", "commit"=>"Save ", "controller"=>"todos", "action"=>"update", "id"=>"3"} }[0m
+Redirected to http://localhost:3001/todos/3
+Completed 302 Found in 36ms (ActiveRecord: 0.0ms | Allocations: 2203)
+
+
+Started GET "/todos/3" for ::1 at 2024-07-18 16:12:48 +0900
+Processing by TodosController#show as TURBO_STREAM
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 1402)
+Completed 200 OK in 8ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 2435)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 16:12:48 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 271)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 1593)
+Completed 200 OK in 19ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 2600)
+
+
+Started GET "/todos/3/edit" for ::1 at 2024-07-18 16:12:49 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 3.4ms | Allocations: 4299)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 5400)
+Completed 200 OK in 19ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 6387)
+
+
+Started PATCH "/todos/3" for ::1 at 2024-07-18 16:12:50 +0900
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"test", "content"=>"test content", "datetime"=>"", "complete_flag"=>"1", "commit"=>"Save ", "id"=>"3"}
+[31mUnpermitted parameters: :_method, :authenticity_token, :commit, :id. Context: { controller: TodosController, action: update, request: #<ActionDispatch::Request:0x0000000107711af8>, params: {"_method"=>"patch", "authenticity_token"=>"[FILTERED]", "title"=>"test", "content"=>"test content", "datetime"=>"", "complete_flag"=>"1", "commit"=>"Save ", "controller"=>"todos", "action"=>"update", "id"=>"3"} }[0m
+Redirected to http://localhost:3001/todos/3
+Completed 302 Found in 25ms (ActiveRecord: 0.0ms | Allocations: 2208)
+
+
+Started GET "/todos/3" for ::1 at 2024-07-18 16:12:51 +0900
+Processing by TodosController#show as TURBO_STREAM
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1399)
+Completed 200 OK in 8ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 2389)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 16:12:52 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 271)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1578)
+Completed 200 OK in 19ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 2585)
+
+
+Started GET "/todos/3" for ::1 at 2024-07-18 16:13:52 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 337)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 15424)
+Completed 200 OK in 25ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 17172)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 16:13:53 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 475)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 1776)
+Completed 200 OK in 23ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 2856)
+
+
+Started GET "/todos/3/edit" for ::1 at 2024-07-18 16:13:53 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 2.9ms | Allocations: 3755)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 3846)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms | Allocations: 4891)
+
+
+  
+ActionView::Template::Error (undefined method `to_date' for nil:NilClass):
+    11:   </div>
+    12:   <div>
+    13:     <%= form.label :datetime, style: "display: block" %>
+    14:     <%= form.datetime_field :datetime, value: @todo["datetime"].to_date %>
+    15:   </div>
+    16:   <div>
+    17:     <%= form.label :complete_flag, style: "display: block" %>
+  
+app/views/todos/edit.html.erb:14
+app/views/todos/edit.html.erb:3
+Started GET "/todos/3" for ::1 at 2024-07-18 16:14:00 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 1413)
+Completed 200 OK in 14ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 2414)
+
+
+Started GET "/todos/3" for ::1 at 2024-07-18 16:14:11 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 337)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 15426)
+Completed 200 OK in 20ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 17173)
+
+
+Started GET "/todos/3" for ::1 at 2024-07-18 16:14:12 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 1378)
+Completed 200 OK in 19ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 2365)
+
+
+Started GET "/todos/3/edit" for ::1 at 2024-07-18 16:14:13 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 4.3ms | Allocations: 4704)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 5805)
+Completed 200 OK in 25ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 6852)
+
+
+Started GET "/todos/3" for ::1 at 2024-07-18 16:14:18 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 1390)
+Completed 200 OK in 14ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 2377)
+
+
+Started PATCH "/todos/3" for ::1 at 2024-07-18 16:14:19 +0900
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"test", "content"=>"test content", "datetime"=>"2024-07-18T16:14", "complete_flag"=>"1", "commit"=>"Save ", "id"=>"3"}
+[31mUnpermitted parameters: :_method, :authenticity_token, :commit, :id. Context: { controller: TodosController, action: update, request: #<ActionDispatch::Request:0x00000001092d5e60>, params: {"_method"=>"patch", "authenticity_token"=>"[FILTERED]", "title"=>"test", "content"=>"test content", "datetime"=>"2024-07-18T16:14", "complete_flag"=>"1", "commit"=>"Save ", "controller"=>"todos", "action"=>"update", "id"=>"3"} }[0m
+Redirected to http://localhost:3001/todos/3
+Completed 302 Found in 32ms (ActiveRecord: 0.0ms | Allocations: 2240)
+
+
+Started GET "/todos/3" for ::1 at 2024-07-18 16:14:19 +0900
+Processing by TodosController#show as TURBO_STREAM
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1391)
+Completed 200 OK in 10ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 2425)
+
+
+Started GET "/todos/3/edit" for ::1 at 2024-07-18 16:14:20 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 4.4ms | Allocations: 4385)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 5486)
+Completed 200 OK in 23ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 6474)
+
+
+Started PATCH "/todos/3" for ::1 at 2024-07-18 16:14:33 +0900
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"test", "content"=>"test content", "datetime"=>"2024-07-18T03:03", "complete_flag"=>"1", "commit"=>"Save ", "id"=>"3"}
+[31mUnpermitted parameters: :_method, :authenticity_token, :commit, :id. Context: { controller: TodosController, action: update, request: #<ActionDispatch::Request:0x00000001085eaa20>, params: {"_method"=>"patch", "authenticity_token"=>"[FILTERED]", "title"=>"test", "content"=>"test content", "datetime"=>"2024-07-18T03:03", "complete_flag"=>"1", "commit"=>"Save ", "controller"=>"todos", "action"=>"update", "id"=>"3"} }[0m
+Redirected to http://localhost:3001/todos/3
+Completed 302 Found in 29ms (ActiveRecord: 0.0ms | Allocations: 2186)
+
+
+Started GET "/todos/3" for ::1 at 2024-07-18 16:14:33 +0900
+Processing by TodosController#show as TURBO_STREAM
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1403)
+Completed 200 OK in 10ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 2394)
+
+
+Started GET "/todos/3/edit" for ::1 at 2024-07-18 16:14:44 +0900
+Processing by TodosController#edit as HTML
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/edit.html.erb within layouts/application
+  Rendered todos/edit.html.erb within layouts/application (Duration: 2.1ms | Allocations: 4732)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 19628)
+Completed 200 OK in 26ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 21373)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 16:14:45 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 473)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 1773)
+Completed 200 OK in 21ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 2857)
+
+
+Started GET "/todos/3" for ::1 at 2024-07-18 16:14:46 +0900
+Processing by TodosController#show as HTML
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 300)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1600)
+Completed 200 OK in 19ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 2648)
+
+
+Started PATCH "/todos/3" for ::1 at 2024-07-18 16:14:46 +0900
+Processing by TodosController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "title"=>"test", "content"=>"test content", "datetime"=>"2024-07-18T03:03", "complete_flag"=>"1", "commit"=>"Save ", "id"=>"3"}
+[31mUnpermitted parameters: :_method, :authenticity_token, :commit, :id. Context: { controller: TodosController, action: update, request: #<ActionDispatch::Request:0x000000010951f1f8>, params: {"_method"=>"patch", "authenticity_token"=>"[FILTERED]", "title"=>"test", "content"=>"test content", "datetime"=>"2024-07-18T03:03", "complete_flag"=>"1", "commit"=>"Save ", "controller"=>"todos", "action"=>"update", "id"=>"3"} }[0m
+Redirected to http://localhost:3001/todos/3
+Completed 302 Found in 28ms (ActiveRecord: 0.0ms | Allocations: 2253)
+
+
+Started GET "/todos/3" for ::1 at 2024-07-18 16:14:46 +0900
+Processing by TodosController#show as TURBO_STREAM
+  Parameters: {"id"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering todos/show.html.erb within layouts/application
+  Rendered todos/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 79)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | Allocations: 1385)
+Completed 200 OK in 10ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 2419)
+
+
+Started GET "/todos" for ::1 at 2024-07-18 16:14:47 +0900
+Processing by TodosController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering todos/index.html.erb within layouts/application
+  Rendered todos/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 271)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 1575)
+Completed 200 OK in 17ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 2583)
+
+

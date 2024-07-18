@@ -1,26 +1,21 @@
-<h1>Todo#new</h1>
-
 <%= form_with url: todos_path do |form| %>
   <div>
     <%= form.label :title, style: "display: block" %>
-    <%= form.text_field :title %>
+    <%= form.text_field :title, value: todo["title"] %>
   </div>
   <div>
     <%= form.label :content, style: "display: block" %>
-    <%= form.text_area :content %>
+    <%= form.text_area :content, value: todo["content"] %>
   </div>
   <div>
     <%= form.label :datetime, style: "display: block" %>
-    <%= form.datetime_field :datetime %>
+    <%= form.datetime_field :datetime, value: todo["datetime"] %>
   </div>
   <div>
     <%= form.label :complete_flag, style: "display: block" %>
-    <%= form.check_box :complete_flag %>
+    <%= form.check_box :complete_flag, value: todo["complete_flag"] %>
   </div>
   <div>
     <%= form.submit %>
   </div>
 <% end %>
-<div>
-  <%= link_to "Back", todos_path %>
-</div>

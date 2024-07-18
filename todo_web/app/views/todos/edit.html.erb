@@ -6,9 +6,22 @@
     <%= form.text_field :title, value: @todo["title"] %>
   </div>
   <div>
+    <%= form.label :content, style: "display: block" %>
+    <%= form.text_area :content, value: @todo["content"] %>
+  </div>
+  <div>
+    <%= form.label :datetime, style: "display: block" %>
+    <%= form.datetime_field :datetime, value: @todo["datetime"]&.to_datetime %>
+  </div>
+  <div>
+    <%= form.label :complete_flag, style: "display: block" %>
+    <%= form.check_box :complete_flag, checked: @todo["complete_flag"] %>
+  </div>
+  <div>
     <%= form.submit %>
   </div>
 <% end %>
+
 <div>
   <%= link_to "Back", todo_path(id: @todo["id"]) %>
   <%= link_to "Back to todos", todos_path %>
